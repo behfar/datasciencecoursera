@@ -81,6 +81,8 @@ cat('The number of restaurants with zipcode', zipcode, 'is', num_restaurants_in_
 # The following are ways to calculate the average value of the variable pwgtp15
 # broken down by sex. Using the data.table package, which will deliver the fastest user time?
 
+library(data.table)
+
 url <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06pid.csv'
 filename <- 'housing_micro_survey_data_2006.csv'
 
@@ -96,6 +98,7 @@ DT <- fread(filename)
 cat('system.time(DT[,mean(pwgtp15),by=SEX]) is',
 	 system.time(DT[,mean(pwgtp15),by=SEX]), '\n')
 
+# I don't know why this command (from the quiz) results in an error
 #cat('system.time({rowMeans(DT)[DT$SEX==1]; rowMeans(DT)[DT$SEX==2]}) is',
 #	 system.time({rowMeans(DT)[DT$SEX==1]; rowMeans(DT)[DT$SEX==2]}), '\n')
 
@@ -105,6 +108,7 @@ cat('system.time(tapply(DT$pwgtp15,DT$SEX,mean)) is',
 cat('system.time(mean(DT$pwgtp15,by=DT$SEX)) is', 
 	 system.time(mean(DT$pwgtp15,by=DT$SEX)), '\n')
 
+# I don't know why this command (from the quiz) results in an error
 #cat('system.time(mean(DT[DT$SEX==1,]$pwgtp15); mean(DT[DT$SEX==2,]$pwgtp15)) is',
 #	 system.time(mean(DT[DT$SEX==1,]$pwgtp15); mean(DT[DT$SEX==2,]$pwgtp15)), '\n')
 

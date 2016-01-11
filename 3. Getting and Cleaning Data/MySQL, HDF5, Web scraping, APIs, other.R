@@ -1,5 +1,33 @@
 ## Coursera JHU Series, Course 3 Getting and Cleaning Data, Week 1
 
+## Reading local files
+
+# Download the file to load
+if (!file.exists('data')) {
+	dir.create('data')
+}
+setwd('data')
+
+fileUrl <- 'https://data.baltimorecity.gov/api/views/dz54-2aru/rows.csv?accessType=DOWNLOAD'
+download.file(fileUrl, destfile='cameras.csv', method='curl')
+dateDownloaded <- date()
+
+# Loading flat files - read.table() - Example: Baltimore camera data
+
+cameraData <- read.table('./data/cameras.csv', sep=',', header=TRUE) # slighly clunky with sep, header
+head(cameraData)
+
+cameraData <- read.csv('./data/cameras.csv') # read.csv sets sep=',' and header=TRUE
+head(cameraData)
+
+# Some more important parameters:
+# quote - you can tell R whether there are any quotes values. quote = "" means no quotes.
+# na.strings - set the character that represents a missing value
+# nrows - how many rows to read of the file
+# skip - the number of lines to skip before starting to read
+
+
+
 ## MySQL
 
 # install.packages('RMySQL')
@@ -14,7 +42,7 @@ dbDisconnect(ucscDB)
 print(result)
 
 # COnnecting to hg19 and listing tables
-hg19 <= dbConnect(MySQL(), user='genome', db='hg19', host='genome-mysql.cse.ucsc.edu')
+hg19 <- dbConnect(MySQL(), user='genome', db='hg19', host='genome-mysql.cse.ucsc.edu')
 allTables <- dbListTables(hg19)
 
 print(length(allTables))
@@ -33,6 +61,90 @@ query <- dbSend(hg19, 'select * from affyU133Plus2 where misMatches between 1 an
 affyMis <- fetch(query)
 quantile(affyMis$misMatches)
 
+
+
 ## HDF5
 
-# 
+# fill this in based on the slides ...
+
+
+
+## Reading data from the web
+
+# Getting data off webpages - readLines()
+con <- url('http://scholar.google.com/citations?user=HI-I6C0AAAAl&bl=en')
+htmlCode <- readLines(con)
+close(con)
+print(htmlCode)
+
+# Parsing with XML
+library(XML)
+url <- 'http://scholar.google.com/citations?user=HI-I6C0AAAAl&bl=en'
+html <- htmlTreeParse(url, useInternalNode=T)
+
+# Get the title of the page
+result <- xpathSApply(html, '//title', xmlValue)
+print(result)
+
+# Get the number of times Jeff's papers have been cited by others
+result <- xpathSApply(html, "//td[@id='col-citedby']", xmlValue)
+print(result)
+
+# GET from the httr package (read about the httr package at http://cran.r-project.org/web/packages/httr/httr.pdf)
+library(httr); html2 <- GET(url)
+content2 <- content(html2, as='text')
+parsedHtml <- htmlParse(content2, asText=TRUE)
+xpathSApply(parsedHtml, '//title', xmlValue)
+
+# Accessing websites with passwords
+pg2 <- GET('http://httpbin.org/basic-auth/user/passwd', authenticate('user', 'passwd'))
+print(pg2)
+
+print(names(pg2))
+
+# Using handles to prevent having to authenticate over and over again
+google <- handle('http://google.com')
+pg1 <- GET(handle=google, path='/')
+pg2 <- GET(handle=google, path='search')
+
+# Also, see many web scraping examples at R-bloggers http://www.r-bloggers.com/?s=Web+Scraping
+
+
+
+## Reading data from APIs
+
+# Creating a Twitter application (create a new app on dev.twitter.com, and the execute below code)
+myapp <- oauth_app('twitter',
+					key='sEoiV2is7QUO6VQ4EbotIxklK',
+					secret='8GUYigsHCoducbQt0ZlNagRsGOrOquUO4b6gPVcFj7qK46dYTD')
+
+sig <- sign_oauth1.0(myapp,
+					 token='18698333-BF6jUvNJXG4gI0BkpzlxCGpy3a2HIZd5eEMs1YGcZ',
+					 token_secret='Y7uvvESHczL25RL2pP97f5IHUyWhWtJBpLssH60nXVs1j')
+
+homeTL <- GET('https://api.twitter.com/1.1/statuses/home_timeline.json', sig)
+
+json1 <- content(homeTL)
+library('rjson') # need this for the toJSON call in next line
+json2 <- jsonlite::fromJSON(toJSON(json1))
+
+print(json2[1, 1:4])
+
+# In general, look at Twitter documentation at https://dev.twitter.com/docs/api/1.1
+
+
+
+## Reading from other resources
+
+# file - open a connection to a text file
+# url - open a connection to a url
+# gzfile - open a connection to a .gz file
+# bzfile - open a connection to a .bz2 file
+# ?connections for more information
+# remember to close connections
+
+# Foreign package - loads data from Minitab, S, SAS, SPSS, Stata, Systat
+# Packages for reading images - jpeg, readbitmap, png, EBImage (Bioconductor)
+# Packages for reading GIS data - rdgal, rgeos, raster
+# Packages for reading music data - tuneR, seewave
+

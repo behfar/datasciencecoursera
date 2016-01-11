@@ -1,0 +1,7942 @@
+Response [https://api.github.com/users/jtleek/repos]
+  Date: 2016-01-11 05:49
+  Status: 200
+  Content-Type: application/json; charset=utf-8
+  Size: 156 kB
+[
+  {
+    "id": 41645119,
+    "name": "advdatasci",
+    "full_name": "jtleek/advdatasci",
+    "owner": {
+      "login": "jtleek",
+      "id": 1571674,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1571674?v=3",
+      "gravatar_id": "",
+...
+[[1]]
+[[1]]$id
+[1] 41645119
+
+[[1]]$name
+[1] "advdatasci"
+
+[[1]]$full_name
+[1] "jtleek/advdatasci"
+
+[[1]]$owner
+[[1]]$owner$login
+[1] "jtleek"
+
+[[1]]$owner$id
+[1] 1571674
+
+[[1]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[1]]$owner$gravatar_id
+[1] ""
+
+[[1]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[1]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[1]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[1]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[1]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[1]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[1]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[1]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[1]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[1]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[1]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[1]]$owner$type
+[1] "User"
+
+[[1]]$owner$site_admin
+[1] FALSE
+
+
+[[1]]$private
+[1] FALSE
+
+[[1]]$html_url
+[1] "https://github.com/jtleek/advdatasci"
+
+[[1]]$description
+[1] "Advanced Data Science @ JHU Biostats"
+
+[[1]]$fork
+[1] FALSE
+
+[[1]]$url
+[1] "https://api.github.com/repos/jtleek/advdatasci"
+
+[[1]]$forks_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/forks"
+
+[[1]]$keys_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/keys{/key_id}"
+
+[[1]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/collaborators{/collaborator}"
+
+[[1]]$teams_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/teams"
+
+[[1]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/hooks"
+
+[[1]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/issues/events{/number}"
+
+[[1]]$events_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/events"
+
+[[1]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/assignees{/user}"
+
+[[1]]$branches_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/branches{/branch}"
+
+[[1]]$tags_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/tags"
+
+[[1]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/git/blobs{/sha}"
+
+[[1]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/git/tags{/sha}"
+
+[[1]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/git/refs{/sha}"
+
+[[1]]$trees_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/git/trees{/sha}"
+
+[[1]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/statuses/{sha}"
+
+[[1]]$languages_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/languages"
+
+[[1]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/stargazers"
+
+[[1]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/contributors"
+
+[[1]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/subscribers"
+
+[[1]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/subscription"
+
+[[1]]$commits_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/commits{/sha}"
+
+[[1]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/git/commits{/sha}"
+
+[[1]]$comments_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/comments{/number}"
+
+[[1]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/issues/comments{/number}"
+
+[[1]]$contents_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/contents/{+path}"
+
+[[1]]$compare_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/compare/{base}...{head}"
+
+[[1]]$merges_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/merges"
+
+[[1]]$archive_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/{archive_format}{/ref}"
+
+[[1]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/downloads"
+
+[[1]]$issues_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/issues{/number}"
+
+[[1]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/pulls{/number}"
+
+[[1]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/milestones{/number}"
+
+[[1]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/notifications{?since,all,participating}"
+
+[[1]]$labels_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/labels{/name}"
+
+[[1]]$releases_url
+[1] "https://api.github.com/repos/jtleek/advdatasci/releases{/id}"
+
+[[1]]$created_at
+[1] "2015-08-30T22:27:26Z"
+
+[[1]]$updated_at
+[1] "2015-09-06T13:31:41Z"
+
+[[1]]$pushed_at
+[1] "2015-12-16T18:12:31Z"
+
+[[1]]$git_url
+[1] "git://github.com/jtleek/advdatasci.git"
+
+[[1]]$ssh_url
+[1] "git@github.com:jtleek/advdatasci.git"
+
+[[1]]$clone_url
+[1] "https://github.com/jtleek/advdatasci.git"
+
+[[1]]$svn_url
+[1] "https://github.com/jtleek/advdatasci"
+
+[[1]]$homepage
+NULL
+
+[[1]]$size
+[1] 200992
+
+[[1]]$stargazers_count
+[1] 9
+
+[[1]]$watchers_count
+[1] 9
+
+[[1]]$language
+[1] "HTML"
+
+[[1]]$has_issues
+[1] TRUE
+
+[[1]]$has_downloads
+[1] TRUE
+
+[[1]]$has_wiki
+[1] TRUE
+
+[[1]]$has_pages
+[1] TRUE
+
+[[1]]$forks_count
+[1] 2
+
+[[1]]$mirror_url
+NULL
+
+[[1]]$open_issues_count
+[1] 0
+
+[[1]]$forks
+[1] 2
+
+[[1]]$open_issues
+[1] 0
+
+[[1]]$watchers
+[1] 9
+
+[[1]]$default_branch
+[1] "gh-pages"
+
+[[1]]$permissions
+[[1]]$permissions$admin
+[1] FALSE
+
+[[1]]$permissions$push
+[1] FALSE
+
+[[1]]$permissions$pull
+[1] TRUE
+
+
+
+[[2]]
+[[2]]$id
+[1] 47568815
+
+[[2]]$name
+[1] "advdatasci-swirl"
+
+[[2]]$full_name
+[1] "jtleek/advdatasci-swirl"
+
+[[2]]$owner
+[[2]]$owner$login
+[1] "jtleek"
+
+[[2]]$owner$id
+[1] 1571674
+
+[[2]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[2]]$owner$gravatar_id
+[1] ""
+
+[[2]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[2]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[2]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[2]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[2]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[2]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[2]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[2]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[2]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[2]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[2]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[2]]$owner$type
+[1] "User"
+
+[[2]]$owner$site_admin
+[1] FALSE
+
+
+[[2]]$private
+[1] FALSE
+
+[[2]]$html_url
+[1] "https://github.com/jtleek/advdatasci-swirl"
+
+[[2]]$description
+[1] ""
+
+[[2]]$fork
+[1] FALSE
+
+[[2]]$url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl"
+
+[[2]]$forks_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/forks"
+
+[[2]]$keys_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/keys{/key_id}"
+
+[[2]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/collaborators{/collaborator}"
+
+[[2]]$teams_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/teams"
+
+[[2]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/hooks"
+
+[[2]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/issues/events{/number}"
+
+[[2]]$events_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/events"
+
+[[2]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/assignees{/user}"
+
+[[2]]$branches_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/branches{/branch}"
+
+[[2]]$tags_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/tags"
+
+[[2]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/git/blobs{/sha}"
+
+[[2]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/git/tags{/sha}"
+
+[[2]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/git/refs{/sha}"
+
+[[2]]$trees_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/git/trees{/sha}"
+
+[[2]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/statuses/{sha}"
+
+[[2]]$languages_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/languages"
+
+[[2]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/stargazers"
+
+[[2]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/contributors"
+
+[[2]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/subscribers"
+
+[[2]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/subscription"
+
+[[2]]$commits_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/commits{/sha}"
+
+[[2]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/git/commits{/sha}"
+
+[[2]]$comments_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/comments{/number}"
+
+[[2]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/issues/comments{/number}"
+
+[[2]]$contents_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/contents/{+path}"
+
+[[2]]$compare_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/compare/{base}...{head}"
+
+[[2]]$merges_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/merges"
+
+[[2]]$archive_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/{archive_format}{/ref}"
+
+[[2]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/downloads"
+
+[[2]]$issues_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/issues{/number}"
+
+[[2]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/pulls{/number}"
+
+[[2]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/milestones{/number}"
+
+[[2]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/notifications{?since,all,participating}"
+
+[[2]]$labels_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/labels{/name}"
+
+[[2]]$releases_url
+[1] "https://api.github.com/repos/jtleek/advdatasci-swirl/releases{/id}"
+
+[[2]]$created_at
+[1] "2015-12-07T17:43:53Z"
+
+[[2]]$updated_at
+[1] "2015-12-12T07:21:53Z"
+
+[[2]]$pushed_at
+[1] "2015-12-09T20:21:13Z"
+
+[[2]]$git_url
+[1] "git://github.com/jtleek/advdatasci-swirl.git"
+
+[[2]]$ssh_url
+[1] "git@github.com:jtleek/advdatasci-swirl.git"
+
+[[2]]$clone_url
+[1] "https://github.com/jtleek/advdatasci-swirl.git"
+
+[[2]]$svn_url
+[1] "https://github.com/jtleek/advdatasci-swirl"
+
+[[2]]$homepage
+NULL
+
+[[2]]$size
+[1] 188
+
+[[2]]$stargazers_count
+[1] 2
+
+[[2]]$watchers_count
+[1] 2
+
+[[2]]$language
+[1] "HTML"
+
+[[2]]$has_issues
+[1] TRUE
+
+[[2]]$has_downloads
+[1] TRUE
+
+[[2]]$has_wiki
+[1] TRUE
+
+[[2]]$has_pages
+[1] FALSE
+
+[[2]]$forks_count
+[1] 1
+
+[[2]]$mirror_url
+NULL
+
+[[2]]$open_issues_count
+[1] 1
+
+[[2]]$forks
+[1] 1
+
+[[2]]$open_issues
+[1] 1
+
+[[2]]$watchers
+[1] 2
+
+[[2]]$default_branch
+[1] "master"
+
+[[2]]$permissions
+[[2]]$permissions$admin
+[1] FALSE
+
+[[2]]$permissions$push
+[1] FALSE
+
+[[2]]$permissions$pull
+[1] TRUE
+
+
+
+[[3]]
+[[3]]$id
+[1] 12441219
+
+[[3]]$name
+[1] "ballgown"
+
+[[3]]$full_name
+[1] "jtleek/ballgown"
+
+[[3]]$owner
+[[3]]$owner$login
+[1] "jtleek"
+
+[[3]]$owner$id
+[1] 1571674
+
+[[3]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[3]]$owner$gravatar_id
+[1] ""
+
+[[3]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[3]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[3]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[3]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[3]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[3]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[3]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[3]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[3]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[3]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[3]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[3]]$owner$type
+[1] "User"
+
+[[3]]$owner$site_admin
+[1] FALSE
+
+
+[[3]]$private
+[1] FALSE
+
+[[3]]$html_url
+[1] "https://github.com/jtleek/ballgown"
+
+[[3]]$description
+[1] "code for manipulating ballgown output in R"
+
+[[3]]$fork
+[1] TRUE
+
+[[3]]$url
+[1] "https://api.github.com/repos/jtleek/ballgown"
+
+[[3]]$forks_url
+[1] "https://api.github.com/repos/jtleek/ballgown/forks"
+
+[[3]]$keys_url
+[1] "https://api.github.com/repos/jtleek/ballgown/keys{/key_id}"
+
+[[3]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/ballgown/collaborators{/collaborator}"
+
+[[3]]$teams_url
+[1] "https://api.github.com/repos/jtleek/ballgown/teams"
+
+[[3]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/ballgown/hooks"
+
+[[3]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/ballgown/issues/events{/number}"
+
+[[3]]$events_url
+[1] "https://api.github.com/repos/jtleek/ballgown/events"
+
+[[3]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/ballgown/assignees{/user}"
+
+[[3]]$branches_url
+[1] "https://api.github.com/repos/jtleek/ballgown/branches{/branch}"
+
+[[3]]$tags_url
+[1] "https://api.github.com/repos/jtleek/ballgown/tags"
+
+[[3]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/ballgown/git/blobs{/sha}"
+
+[[3]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/ballgown/git/tags{/sha}"
+
+[[3]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/ballgown/git/refs{/sha}"
+
+[[3]]$trees_url
+[1] "https://api.github.com/repos/jtleek/ballgown/git/trees{/sha}"
+
+[[3]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/ballgown/statuses/{sha}"
+
+[[3]]$languages_url
+[1] "https://api.github.com/repos/jtleek/ballgown/languages"
+
+[[3]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/ballgown/stargazers"
+
+[[3]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/ballgown/contributors"
+
+[[3]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/ballgown/subscribers"
+
+[[3]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/ballgown/subscription"
+
+[[3]]$commits_url
+[1] "https://api.github.com/repos/jtleek/ballgown/commits{/sha}"
+
+[[3]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/ballgown/git/commits{/sha}"
+
+[[3]]$comments_url
+[1] "https://api.github.com/repos/jtleek/ballgown/comments{/number}"
+
+[[3]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/ballgown/issues/comments{/number}"
+
+[[3]]$contents_url
+[1] "https://api.github.com/repos/jtleek/ballgown/contents/{+path}"
+
+[[3]]$compare_url
+[1] "https://api.github.com/repos/jtleek/ballgown/compare/{base}...{head}"
+
+[[3]]$merges_url
+[1] "https://api.github.com/repos/jtleek/ballgown/merges"
+
+[[3]]$archive_url
+[1] "https://api.github.com/repos/jtleek/ballgown/{archive_format}{/ref}"
+
+[[3]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/ballgown/downloads"
+
+[[3]]$issues_url
+[1] "https://api.github.com/repos/jtleek/ballgown/issues{/number}"
+
+[[3]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/ballgown/pulls{/number}"
+
+[[3]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/ballgown/milestones{/number}"
+
+[[3]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/ballgown/notifications{?since,all,participating}"
+
+[[3]]$labels_url
+[1] "https://api.github.com/repos/jtleek/ballgown/labels{/name}"
+
+[[3]]$releases_url
+[1] "https://api.github.com/repos/jtleek/ballgown/releases{/id}"
+
+[[3]]$created_at
+[1] "2013-08-28T18:18:50Z"
+
+[[3]]$updated_at
+[1] "2014-03-27T15:17:57Z"
+
+[[3]]$pushed_at
+[1] "2014-03-27T15:06:21Z"
+
+[[3]]$git_url
+[1] "git://github.com/jtleek/ballgown.git"
+
+[[3]]$ssh_url
+[1] "git@github.com:jtleek/ballgown.git"
+
+[[3]]$clone_url
+[1] "https://github.com/jtleek/ballgown.git"
+
+[[3]]$svn_url
+[1] "https://github.com/jtleek/ballgown"
+
+[[3]]$homepage
+NULL
+
+[[3]]$size
+[1] 10421
+
+[[3]]$stargazers_count
+[1] 0
+
+[[3]]$watchers_count
+[1] 0
+
+[[3]]$language
+[1] "C++"
+
+[[3]]$has_issues
+[1] FALSE
+
+[[3]]$has_downloads
+[1] TRUE
+
+[[3]]$has_wiki
+[1] TRUE
+
+[[3]]$has_pages
+[1] FALSE
+
+[[3]]$forks_count
+[1] 1
+
+[[3]]$mirror_url
+NULL
+
+[[3]]$open_issues_count
+[1] 0
+
+[[3]]$forks
+[1] 1
+
+[[3]]$open_issues
+[1] 0
+
+[[3]]$watchers
+[1] 0
+
+[[3]]$default_branch
+[1] "master"
+
+[[3]]$permissions
+[[3]]$permissions$admin
+[1] FALSE
+
+[[3]]$permissions$push
+[1] FALSE
+
+[[3]]$permissions$pull
+[1] TRUE
+
+
+
+[[4]]
+[[4]]$id
+[1] 20234724
+
+[[4]]$name
+[1] "capitalIn21stCenturyinR"
+
+[[4]]$full_name
+[1] "jtleek/capitalIn21stCenturyinR"
+
+[[4]]$owner
+[[4]]$owner$login
+[1] "jtleek"
+
+[[4]]$owner$id
+[1] 1571674
+
+[[4]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[4]]$owner$gravatar_id
+[1] ""
+
+[[4]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[4]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[4]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[4]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[4]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[4]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[4]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[4]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[4]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[4]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[4]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[4]]$owner$type
+[1] "User"
+
+[[4]]$owner$site_admin
+[1] FALSE
+
+
+[[4]]$private
+[1] FALSE
+
+[[4]]$html_url
+[1] "https://github.com/jtleek/capitalIn21stCenturyinR"
+
+[[4]]$description
+[1] "Piketty in R"
+
+[[4]]$fork
+[1] FALSE
+
+[[4]]$url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR"
+
+[[4]]$forks_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/forks"
+
+[[4]]$keys_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/keys{/key_id}"
+
+[[4]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/collaborators{/collaborator}"
+
+[[4]]$teams_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/teams"
+
+[[4]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/hooks"
+
+[[4]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/issues/events{/number}"
+
+[[4]]$events_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/events"
+
+[[4]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/assignees{/user}"
+
+[[4]]$branches_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/branches{/branch}"
+
+[[4]]$tags_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/tags"
+
+[[4]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/git/blobs{/sha}"
+
+[[4]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/git/tags{/sha}"
+
+[[4]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/git/refs{/sha}"
+
+[[4]]$trees_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/git/trees{/sha}"
+
+[[4]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/statuses/{sha}"
+
+[[4]]$languages_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/languages"
+
+[[4]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/stargazers"
+
+[[4]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/contributors"
+
+[[4]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/subscribers"
+
+[[4]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/subscription"
+
+[[4]]$commits_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/commits{/sha}"
+
+[[4]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/git/commits{/sha}"
+
+[[4]]$comments_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/comments{/number}"
+
+[[4]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/issues/comments{/number}"
+
+[[4]]$contents_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/contents/{+path}"
+
+[[4]]$compare_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/compare/{base}...{head}"
+
+[[4]]$merges_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/merges"
+
+[[4]]$archive_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/{archive_format}{/ref}"
+
+[[4]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/downloads"
+
+[[4]]$issues_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/issues{/number}"
+
+[[4]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/pulls{/number}"
+
+[[4]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/milestones{/number}"
+
+[[4]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/notifications{?since,all,participating}"
+
+[[4]]$labels_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/labels{/name}"
+
+[[4]]$releases_url
+[1] "https://api.github.com/repos/jtleek/capitalIn21stCenturyinR/releases{/id}"
+
+[[4]]$created_at
+[1] "2014-05-27T20:38:31Z"
+
+[[4]]$updated_at
+[1] "2016-01-10T13:33:21Z"
+
+[[4]]$pushed_at
+[1] "2015-01-20T23:22:33Z"
+
+[[4]]$git_url
+[1] "git://github.com/jtleek/capitalIn21stCenturyinR.git"
+
+[[4]]$ssh_url
+[1] "git@github.com:jtleek/capitalIn21stCenturyinR.git"
+
+[[4]]$clone_url
+[1] "https://github.com/jtleek/capitalIn21stCenturyinR.git"
+
+[[4]]$svn_url
+[1] "https://github.com/jtleek/capitalIn21stCenturyinR"
+
+[[4]]$homepage
+NULL
+
+[[4]]$size
+[1] 373542
+
+[[4]]$stargazers_count
+[1] 179
+
+[[4]]$watchers_count
+[1] 179
+
+[[4]]$language
+[1] "TeX"
+
+[[4]]$has_issues
+[1] TRUE
+
+[[4]]$has_downloads
+[1] TRUE
+
+[[4]]$has_wiki
+[1] TRUE
+
+[[4]]$has_pages
+[1] TRUE
+
+[[4]]$forks_count
+[1] 97
+
+[[4]]$mirror_url
+NULL
+
+[[4]]$open_issues_count
+[1] 0
+
+[[4]]$forks
+[1] 97
+
+[[4]]$open_issues
+[1] 0
+
+[[4]]$watchers
+[1] 179
+
+[[4]]$default_branch
+[1] "master"
+
+[[4]]$permissions
+[[4]]$permissions$admin
+[1] FALSE
+
+[[4]]$permissions$push
+[1] FALSE
+
+[[4]]$permissions$pull
+[1] TRUE
+
+
+
+[[5]]
+[[5]]$id
+[1] 36437287
+
+[[5]]$name
+[1] "careerplanning"
+
+[[5]]$full_name
+[1] "jtleek/careerplanning"
+
+[[5]]$owner
+[[5]]$owner$login
+[1] "jtleek"
+
+[[5]]$owner$id
+[1] 1571674
+
+[[5]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[5]]$owner$gravatar_id
+[1] ""
+
+[[5]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[5]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[5]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[5]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[5]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[5]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[5]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[5]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[5]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[5]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[5]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[5]]$owner$type
+[1] "User"
+
+[[5]]$owner$site_admin
+[1] FALSE
+
+
+[[5]]$private
+[1] FALSE
+
+[[5]]$html_url
+[1] "https://github.com/jtleek/careerplanning"
+
+[[5]]$description
+[1] "A career planning guide."
+
+[[5]]$fork
+[1] FALSE
+
+[[5]]$url
+[1] "https://api.github.com/repos/jtleek/careerplanning"
+
+[[5]]$forks_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/forks"
+
+[[5]]$keys_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/keys{/key_id}"
+
+[[5]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/collaborators{/collaborator}"
+
+[[5]]$teams_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/teams"
+
+[[5]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/hooks"
+
+[[5]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/issues/events{/number}"
+
+[[5]]$events_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/events"
+
+[[5]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/assignees{/user}"
+
+[[5]]$branches_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/branches{/branch}"
+
+[[5]]$tags_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/tags"
+
+[[5]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/git/blobs{/sha}"
+
+[[5]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/git/tags{/sha}"
+
+[[5]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/git/refs{/sha}"
+
+[[5]]$trees_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/git/trees{/sha}"
+
+[[5]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/statuses/{sha}"
+
+[[5]]$languages_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/languages"
+
+[[5]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/stargazers"
+
+[[5]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/contributors"
+
+[[5]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/subscribers"
+
+[[5]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/subscription"
+
+[[5]]$commits_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/commits{/sha}"
+
+[[5]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/git/commits{/sha}"
+
+[[5]]$comments_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/comments{/number}"
+
+[[5]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/issues/comments{/number}"
+
+[[5]]$contents_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/contents/{+path}"
+
+[[5]]$compare_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/compare/{base}...{head}"
+
+[[5]]$merges_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/merges"
+
+[[5]]$archive_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/{archive_format}{/ref}"
+
+[[5]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/downloads"
+
+[[5]]$issues_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/issues{/number}"
+
+[[5]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/pulls{/number}"
+
+[[5]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/milestones{/number}"
+
+[[5]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/notifications{?since,all,participating}"
+
+[[5]]$labels_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/labels{/name}"
+
+[[5]]$releases_url
+[1] "https://api.github.com/repos/jtleek/careerplanning/releases{/id}"
+
+[[5]]$created_at
+[1] "2015-05-28T12:37:04Z"
+
+[[5]]$updated_at
+[1] "2015-11-15T12:03:52Z"
+
+[[5]]$pushed_at
+[1] "2015-05-28T13:51:02Z"
+
+[[5]]$git_url
+[1] "git://github.com/jtleek/careerplanning.git"
+
+[[5]]$ssh_url
+[1] "git@github.com:jtleek/careerplanning.git"
+
+[[5]]$clone_url
+[1] "https://github.com/jtleek/careerplanning.git"
+
+[[5]]$svn_url
+[1] "https://github.com/jtleek/careerplanning"
+
+[[5]]$homepage
+NULL
+
+[[5]]$size
+[1] 128
+
+[[5]]$stargazers_count
+[1] 44
+
+[[5]]$watchers_count
+[1] 44
+
+[[5]]$language
+NULL
+
+[[5]]$has_issues
+[1] TRUE
+
+[[5]]$has_downloads
+[1] TRUE
+
+[[5]]$has_wiki
+[1] TRUE
+
+[[5]]$has_pages
+[1] FALSE
+
+[[5]]$forks_count
+[1] 13
+
+[[5]]$mirror_url
+NULL
+
+[[5]]$open_issues_count
+[1] 0
+
+[[5]]$forks
+[1] 13
+
+[[5]]$open_issues
+[1] 0
+
+[[5]]$watchers
+[1] 44
+
+[[5]]$default_branch
+[1] "master"
+
+[[5]]$permissions
+[[5]]$permissions$admin
+[1] FALSE
+
+[[5]]$permissions$push
+[1] FALSE
+
+[[5]]$permissions$pull
+[1] TRUE
+
+
+
+[[6]]
+[[6]]$id
+[1] 7751816
+
+[[6]]$name
+[1] "dataanalysis"
+
+[[6]]$full_name
+[1] "jtleek/dataanalysis"
+
+[[6]]$owner
+[[6]]$owner$login
+[1] "jtleek"
+
+[[6]]$owner$id
+[1] 1571674
+
+[[6]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[6]]$owner$gravatar_id
+[1] ""
+
+[[6]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[6]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[6]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[6]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[6]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[6]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[6]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[6]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[6]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[6]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[6]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[6]]$owner$type
+[1] "User"
+
+[[6]]$owner$site_admin
+[1] FALSE
+
+
+[[6]]$private
+[1] FALSE
+
+[[6]]$html_url
+[1] "https://github.com/jtleek/dataanalysis"
+
+[[6]]$description
+[1] "The lecture slides for Coursera's Data Analysis class"
+
+[[6]]$fork
+[1] FALSE
+
+[[6]]$url
+[1] "https://api.github.com/repos/jtleek/dataanalysis"
+
+[[6]]$forks_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/forks"
+
+[[6]]$keys_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/keys{/key_id}"
+
+[[6]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/collaborators{/collaborator}"
+
+[[6]]$teams_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/teams"
+
+[[6]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/hooks"
+
+[[6]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/issues/events{/number}"
+
+[[6]]$events_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/events"
+
+[[6]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/assignees{/user}"
+
+[[6]]$branches_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/branches{/branch}"
+
+[[6]]$tags_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/tags"
+
+[[6]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/git/blobs{/sha}"
+
+[[6]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/git/tags{/sha}"
+
+[[6]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/git/refs{/sha}"
+
+[[6]]$trees_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/git/trees{/sha}"
+
+[[6]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/statuses/{sha}"
+
+[[6]]$languages_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/languages"
+
+[[6]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/stargazers"
+
+[[6]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/contributors"
+
+[[6]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/subscribers"
+
+[[6]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/subscription"
+
+[[6]]$commits_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/commits{/sha}"
+
+[[6]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/git/commits{/sha}"
+
+[[6]]$comments_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/comments{/number}"
+
+[[6]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/issues/comments{/number}"
+
+[[6]]$contents_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/contents/{+path}"
+
+[[6]]$compare_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/compare/{base}...{head}"
+
+[[6]]$merges_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/merges"
+
+[[6]]$archive_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/{archive_format}{/ref}"
+
+[[6]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/downloads"
+
+[[6]]$issues_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/issues{/number}"
+
+[[6]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/pulls{/number}"
+
+[[6]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/milestones{/number}"
+
+[[6]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/notifications{?since,all,participating}"
+
+[[6]]$labels_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/labels{/name}"
+
+[[6]]$releases_url
+[1] "https://api.github.com/repos/jtleek/dataanalysis/releases{/id}"
+
+[[6]]$created_at
+[1] "2013-01-22T12:16:41Z"
+
+[[6]]$updated_at
+[1] "2016-01-08T03:17:03Z"
+
+[[6]]$pushed_at
+[1] "2015-09-22T09:38:52Z"
+
+[[6]]$git_url
+[1] "git://github.com/jtleek/dataanalysis.git"
+
+[[6]]$ssh_url
+[1] "git@github.com:jtleek/dataanalysis.git"
+
+[[6]]$clone_url
+[1] "https://github.com/jtleek/dataanalysis.git"
+
+[[6]]$svn_url
+[1] "https://github.com/jtleek/dataanalysis"
+
+[[6]]$homepage
+NULL
+
+[[6]]$size
+[1] 156389
+
+[[6]]$stargazers_count
+[1] 576
+
+[[6]]$watchers_count
+[1] 576
+
+[[6]]$language
+[1] "JavaScript"
+
+[[6]]$has_issues
+[1] TRUE
+
+[[6]]$has_downloads
+[1] TRUE
+
+[[6]]$has_wiki
+[1] TRUE
+
+[[6]]$has_pages
+[1] FALSE
+
+[[6]]$forks_count
+[1] 538
+
+[[6]]$mirror_url
+NULL
+
+[[6]]$open_issues_count
+[1] 5
+
+[[6]]$forks
+[1] 538
+
+[[6]]$open_issues
+[1] 5
+
+[[6]]$watchers
+[1] 576
+
+[[6]]$default_branch
+[1] "master"
+
+[[6]]$permissions
+[[6]]$permissions$admin
+[1] FALSE
+
+[[6]]$permissions$push
+[1] FALSE
+
+[[6]]$permissions$pull
+[1] TRUE
+
+
+
+[[7]]
+[[7]]$id
+[1] 4772877
+
+[[7]]$name
+[1] "datascientist"
+
+[[7]]$full_name
+[1] "jtleek/datascientist"
+
+[[7]]$owner
+[[7]]$owner$login
+[1] "jtleek"
+
+[[7]]$owner$id
+[1] 1571674
+
+[[7]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[7]]$owner$gravatar_id
+[1] ""
+
+[[7]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[7]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[7]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[7]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[7]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[7]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[7]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[7]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[7]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[7]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[7]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[7]]$owner$type
+[1] "User"
+
+[[7]]$owner$site_admin
+[1] FALSE
+
+
+[[7]]$private
+[1] FALSE
+
+[[7]]$html_url
+[1] "https://github.com/jtleek/datascientist"
+
+[[7]]$description
+[1] "datascientist"
+
+[[7]]$fork
+[1] FALSE
+
+[[7]]$url
+[1] "https://api.github.com/repos/jtleek/datascientist"
+
+[[7]]$forks_url
+[1] "https://api.github.com/repos/jtleek/datascientist/forks"
+
+[[7]]$keys_url
+[1] "https://api.github.com/repos/jtleek/datascientist/keys{/key_id}"
+
+[[7]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/datascientist/collaborators{/collaborator}"
+
+[[7]]$teams_url
+[1] "https://api.github.com/repos/jtleek/datascientist/teams"
+
+[[7]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/datascientist/hooks"
+
+[[7]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/datascientist/issues/events{/number}"
+
+[[7]]$events_url
+[1] "https://api.github.com/repos/jtleek/datascientist/events"
+
+[[7]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/datascientist/assignees{/user}"
+
+[[7]]$branches_url
+[1] "https://api.github.com/repos/jtleek/datascientist/branches{/branch}"
+
+[[7]]$tags_url
+[1] "https://api.github.com/repos/jtleek/datascientist/tags"
+
+[[7]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/datascientist/git/blobs{/sha}"
+
+[[7]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/datascientist/git/tags{/sha}"
+
+[[7]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/datascientist/git/refs{/sha}"
+
+[[7]]$trees_url
+[1] "https://api.github.com/repos/jtleek/datascientist/git/trees{/sha}"
+
+[[7]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/datascientist/statuses/{sha}"
+
+[[7]]$languages_url
+[1] "https://api.github.com/repos/jtleek/datascientist/languages"
+
+[[7]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/datascientist/stargazers"
+
+[[7]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/datascientist/contributors"
+
+[[7]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/datascientist/subscribers"
+
+[[7]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/datascientist/subscription"
+
+[[7]]$commits_url
+[1] "https://api.github.com/repos/jtleek/datascientist/commits{/sha}"
+
+[[7]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/datascientist/git/commits{/sha}"
+
+[[7]]$comments_url
+[1] "https://api.github.com/repos/jtleek/datascientist/comments{/number}"
+
+[[7]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/datascientist/issues/comments{/number}"
+
+[[7]]$contents_url
+[1] "https://api.github.com/repos/jtleek/datascientist/contents/{+path}"
+
+[[7]]$compare_url
+[1] "https://api.github.com/repos/jtleek/datascientist/compare/{base}...{head}"
+
+[[7]]$merges_url
+[1] "https://api.github.com/repos/jtleek/datascientist/merges"
+
+[[7]]$archive_url
+[1] "https://api.github.com/repos/jtleek/datascientist/{archive_format}{/ref}"
+
+[[7]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/datascientist/downloads"
+
+[[7]]$issues_url
+[1] "https://api.github.com/repos/jtleek/datascientist/issues{/number}"
+
+[[7]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/datascientist/pulls{/number}"
+
+[[7]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/datascientist/milestones{/number}"
+
+[[7]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/datascientist/notifications{?since,all,participating}"
+
+[[7]]$labels_url
+[1] "https://api.github.com/repos/jtleek/datascientist/labels{/name}"
+
+[[7]]$releases_url
+[1] "https://api.github.com/repos/jtleek/datascientist/releases{/id}"
+
+[[7]]$created_at
+[1] "2012-06-24T14:36:20Z"
+
+[[7]]$updated_at
+[1] "2015-05-07T02:22:07Z"
+
+[[7]]$pushed_at
+[1] "2012-06-24T14:38:18Z"
+
+[[7]]$git_url
+[1] "git://github.com/jtleek/datascientist.git"
+
+[[7]]$ssh_url
+[1] "git@github.com:jtleek/datascientist.git"
+
+[[7]]$clone_url
+[1] "https://github.com/jtleek/datascientist.git"
+
+[[7]]$svn_url
+[1] "https://github.com/jtleek/datascientist"
+
+[[7]]$homepage
+NULL
+
+[[7]]$size
+[1] 98
+
+[[7]]$stargazers_count
+[1] 7
+
+[[7]]$watchers_count
+[1] 7
+
+[[7]]$language
+[1] "R"
+
+[[7]]$has_issues
+[1] TRUE
+
+[[7]]$has_downloads
+[1] TRUE
+
+[[7]]$has_wiki
+[1] TRUE
+
+[[7]]$has_pages
+[1] FALSE
+
+[[7]]$forks_count
+[1] 35
+
+[[7]]$mirror_url
+NULL
+
+[[7]]$open_issues_count
+[1] 0
+
+[[7]]$forks
+[1] 35
+
+[[7]]$open_issues
+[1] 0
+
+[[7]]$watchers
+[1] 7
+
+[[7]]$default_branch
+[1] "master"
+
+[[7]]$permissions
+[[7]]$permissions$admin
+[1] FALSE
+
+[[7]]$permissions$push
+[1] FALSE
+
+[[7]]$permissions$pull
+[1] TRUE
+
+
+
+[[8]]
+[[8]]$id
+[1] 14204342
+
+[[8]]$name
+[1] "datasharing"
+
+[[8]]$full_name
+[1] "jtleek/datasharing"
+
+[[8]]$owner
+[[8]]$owner$login
+[1] "jtleek"
+
+[[8]]$owner$id
+[1] 1571674
+
+[[8]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[8]]$owner$gravatar_id
+[1] ""
+
+[[8]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[8]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[8]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[8]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[8]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[8]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[8]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[8]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[8]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[8]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[8]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[8]]$owner$type
+[1] "User"
+
+[[8]]$owner$site_admin
+[1] FALSE
+
+
+[[8]]$private
+[1] FALSE
+
+[[8]]$html_url
+[1] "https://github.com/jtleek/datasharing"
+
+[[8]]$description
+[1] "The Leek group guide to data sharing "
+
+[[8]]$fork
+[1] FALSE
+
+[[8]]$url
+[1] "https://api.github.com/repos/jtleek/datasharing"
+
+[[8]]$forks_url
+[1] "https://api.github.com/repos/jtleek/datasharing/forks"
+
+[[8]]$keys_url
+[1] "https://api.github.com/repos/jtleek/datasharing/keys{/key_id}"
+
+[[8]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/datasharing/collaborators{/collaborator}"
+
+[[8]]$teams_url
+[1] "https://api.github.com/repos/jtleek/datasharing/teams"
+
+[[8]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/datasharing/hooks"
+
+[[8]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/datasharing/issues/events{/number}"
+
+[[8]]$events_url
+[1] "https://api.github.com/repos/jtleek/datasharing/events"
+
+[[8]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/datasharing/assignees{/user}"
+
+[[8]]$branches_url
+[1] "https://api.github.com/repos/jtleek/datasharing/branches{/branch}"
+
+[[8]]$tags_url
+[1] "https://api.github.com/repos/jtleek/datasharing/tags"
+
+[[8]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/datasharing/git/blobs{/sha}"
+
+[[8]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/datasharing/git/tags{/sha}"
+
+[[8]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/datasharing/git/refs{/sha}"
+
+[[8]]$trees_url
+[1] "https://api.github.com/repos/jtleek/datasharing/git/trees{/sha}"
+
+[[8]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/datasharing/statuses/{sha}"
+
+[[8]]$languages_url
+[1] "https://api.github.com/repos/jtleek/datasharing/languages"
+
+[[8]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/datasharing/stargazers"
+
+[[8]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/datasharing/contributors"
+
+[[8]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/datasharing/subscribers"
+
+[[8]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/datasharing/subscription"
+
+[[8]]$commits_url
+[1] "https://api.github.com/repos/jtleek/datasharing/commits{/sha}"
+
+[[8]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/datasharing/git/commits{/sha}"
+
+[[8]]$comments_url
+[1] "https://api.github.com/repos/jtleek/datasharing/comments{/number}"
+
+[[8]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/datasharing/issues/comments{/number}"
+
+[[8]]$contents_url
+[1] "https://api.github.com/repos/jtleek/datasharing/contents/{+path}"
+
+[[8]]$compare_url
+[1] "https://api.github.com/repos/jtleek/datasharing/compare/{base}...{head}"
+
+[[8]]$merges_url
+[1] "https://api.github.com/repos/jtleek/datasharing/merges"
+
+[[8]]$archive_url
+[1] "https://api.github.com/repos/jtleek/datasharing/{archive_format}{/ref}"
+
+[[8]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/datasharing/downloads"
+
+[[8]]$issues_url
+[1] "https://api.github.com/repos/jtleek/datasharing/issues{/number}"
+
+[[8]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/datasharing/pulls{/number}"
+
+[[8]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/datasharing/milestones{/number}"
+
+[[8]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/datasharing/notifications{?since,all,participating}"
+
+[[8]]$labels_url
+[1] "https://api.github.com/repos/jtleek/datasharing/labels{/name}"
+
+[[8]]$releases_url
+[1] "https://api.github.com/repos/jtleek/datasharing/releases{/id}"
+
+[[8]]$created_at
+[1] "2013-11-07T13:25:07Z"
+
+[[8]]$updated_at
+[1] "2016-01-10T21:03:07Z"
+
+[[8]]$pushed_at
+[1] "2015-12-27T10:05:57Z"
+
+[[8]]$git_url
+[1] "git://github.com/jtleek/datasharing.git"
+
+[[8]]$ssh_url
+[1] "git@github.com:jtleek/datasharing.git"
+
+[[8]]$clone_url
+[1] "https://github.com/jtleek/datasharing.git"
+
+[[8]]$svn_url
+[1] "https://github.com/jtleek/datasharing"
+
+[[8]]$homepage
+NULL
+
+[[8]]$size
+[1] 1564
+
+[[8]]$stargazers_count
+[1] 2837
+
+[[8]]$watchers_count
+[1] 2837
+
+[[8]]$language
+NULL
+
+[[8]]$has_issues
+[1] TRUE
+
+[[8]]$has_downloads
+[1] TRUE
+
+[[8]]$has_wiki
+[1] TRUE
+
+[[8]]$has_pages
+[1] FALSE
+
+[[8]]$forks_count
+[1] 140651
+
+[[8]]$mirror_url
+NULL
+
+[[8]]$open_issues_count
+[1] 378
+
+[[8]]$forks
+[1] 140651
+
+[[8]]$open_issues
+[1] 378
+
+[[8]]$watchers
+[1] 2837
+
+[[8]]$default_branch
+[1] "master"
+
+[[8]]$permissions
+[[8]]$permissions$admin
+[1] FALSE
+
+[[8]]$permissions$push
+[1] FALSE
+
+[[8]]$permissions$pull
+[1] TRUE
+
+
+
+[[9]]
+[[9]]$id
+[1] 23840078
+
+[[9]]$name
+[1] "datawomenontwitter"
+
+[[9]]$full_name
+[1] "jtleek/datawomenontwitter"
+
+[[9]]$owner
+[[9]]$owner$login
+[1] "jtleek"
+
+[[9]]$owner$id
+[1] 1571674
+
+[[9]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[9]]$owner$gravatar_id
+[1] ""
+
+[[9]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[9]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[9]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[9]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[9]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[9]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[9]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[9]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[9]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[9]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[9]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[9]]$owner$type
+[1] "User"
+
+[[9]]$owner$site_admin
+[1] FALSE
+
+
+[[9]]$private
+[1] FALSE
+
+[[9]]$html_url
+[1] "https://github.com/jtleek/datawomenontwitter"
+
+[[9]]$description
+[1] "A list of women doing great data things on Twitter (started here:http://simplystatistics.org/2014/09/09/a-non-comprehensive-list-of-awesome-female-data-people-on-twitter/)"
+
+[[9]]$fork
+[1] FALSE
+
+[[9]]$url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter"
+
+[[9]]$forks_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/forks"
+
+[[9]]$keys_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/keys{/key_id}"
+
+[[9]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/collaborators{/collaborator}"
+
+[[9]]$teams_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/teams"
+
+[[9]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/hooks"
+
+[[9]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/issues/events{/number}"
+
+[[9]]$events_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/events"
+
+[[9]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/assignees{/user}"
+
+[[9]]$branches_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/branches{/branch}"
+
+[[9]]$tags_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/tags"
+
+[[9]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/git/blobs{/sha}"
+
+[[9]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/git/tags{/sha}"
+
+[[9]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/git/refs{/sha}"
+
+[[9]]$trees_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/git/trees{/sha}"
+
+[[9]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/statuses/{sha}"
+
+[[9]]$languages_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/languages"
+
+[[9]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/stargazers"
+
+[[9]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/contributors"
+
+[[9]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/subscribers"
+
+[[9]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/subscription"
+
+[[9]]$commits_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/commits{/sha}"
+
+[[9]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/git/commits{/sha}"
+
+[[9]]$comments_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/comments{/number}"
+
+[[9]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/issues/comments{/number}"
+
+[[9]]$contents_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/contents/{+path}"
+
+[[9]]$compare_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/compare/{base}...{head}"
+
+[[9]]$merges_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/merges"
+
+[[9]]$archive_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/{archive_format}{/ref}"
+
+[[9]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/downloads"
+
+[[9]]$issues_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/issues{/number}"
+
+[[9]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/pulls{/number}"
+
+[[9]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/milestones{/number}"
+
+[[9]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/notifications{?since,all,participating}"
+
+[[9]]$labels_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/labels{/name}"
+
+[[9]]$releases_url
+[1] "https://api.github.com/repos/jtleek/datawomenontwitter/releases{/id}"
+
+[[9]]$created_at
+[1] "2014-09-09T15:49:57Z"
+
+[[9]]$updated_at
+[1] "2015-05-06T15:39:08Z"
+
+[[9]]$pushed_at
+[1] "2014-09-09T15:50:55Z"
+
+[[9]]$git_url
+[1] "git://github.com/jtleek/datawomenontwitter.git"
+
+[[9]]$ssh_url
+[1] "git@github.com:jtleek/datawomenontwitter.git"
+
+[[9]]$clone_url
+[1] "https://github.com/jtleek/datawomenontwitter.git"
+
+[[9]]$svn_url
+[1] "https://github.com/jtleek/datawomenontwitter"
+
+[[9]]$homepage
+NULL
+
+[[9]]$size
+[1] 112
+
+[[9]]$stargazers_count
+[1] 3
+
+[[9]]$watchers_count
+[1] 3
+
+[[9]]$language
+NULL
+
+[[9]]$has_issues
+[1] TRUE
+
+[[9]]$has_downloads
+[1] TRUE
+
+[[9]]$has_wiki
+[1] TRUE
+
+[[9]]$has_pages
+[1] FALSE
+
+[[9]]$forks_count
+[1] 4
+
+[[9]]$mirror_url
+NULL
+
+[[9]]$open_issues_count
+[1] 1
+
+[[9]]$forks
+[1] 4
+
+[[9]]$open_issues
+[1] 1
+
+[[9]]$watchers
+[1] 3
+
+[[9]]$default_branch
+[1] "master"
+
+[[9]]$permissions
+[[9]]$permissions$admin
+[1] FALSE
+
+[[9]]$permissions$push
+[1] FALSE
+
+[[9]]$permissions$pull
+[1] TRUE
+
+
+
+[[10]]
+[[10]]$id
+[1] 11549405
+
+[[10]]$name
+[1] "derfinder"
+
+[[10]]$full_name
+[1] "jtleek/derfinder"
+
+[[10]]$owner
+[[10]]$owner$login
+[1] "jtleek"
+
+[[10]]$owner$id
+[1] 1571674
+
+[[10]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[10]]$owner$gravatar_id
+[1] ""
+
+[[10]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[10]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[10]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[10]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[10]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[10]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[10]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[10]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[10]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[10]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[10]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[10]]$owner$type
+[1] "User"
+
+[[10]]$owner$site_admin
+[1] FALSE
+
+
+[[10]]$private
+[1] FALSE
+
+[[10]]$html_url
+[1] "https://github.com/jtleek/derfinder"
+
+[[10]]$description
+[1] ""
+
+[[10]]$fork
+[1] TRUE
+
+[[10]]$url
+[1] "https://api.github.com/repos/jtleek/derfinder"
+
+[[10]]$forks_url
+[1] "https://api.github.com/repos/jtleek/derfinder/forks"
+
+[[10]]$keys_url
+[1] "https://api.github.com/repos/jtleek/derfinder/keys{/key_id}"
+
+[[10]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/derfinder/collaborators{/collaborator}"
+
+[[10]]$teams_url
+[1] "https://api.github.com/repos/jtleek/derfinder/teams"
+
+[[10]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/derfinder/hooks"
+
+[[10]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/derfinder/issues/events{/number}"
+
+[[10]]$events_url
+[1] "https://api.github.com/repos/jtleek/derfinder/events"
+
+[[10]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/derfinder/assignees{/user}"
+
+[[10]]$branches_url
+[1] "https://api.github.com/repos/jtleek/derfinder/branches{/branch}"
+
+[[10]]$tags_url
+[1] "https://api.github.com/repos/jtleek/derfinder/tags"
+
+[[10]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/derfinder/git/blobs{/sha}"
+
+[[10]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/derfinder/git/tags{/sha}"
+
+[[10]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/derfinder/git/refs{/sha}"
+
+[[10]]$trees_url
+[1] "https://api.github.com/repos/jtleek/derfinder/git/trees{/sha}"
+
+[[10]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/derfinder/statuses/{sha}"
+
+[[10]]$languages_url
+[1] "https://api.github.com/repos/jtleek/derfinder/languages"
+
+[[10]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/derfinder/stargazers"
+
+[[10]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/derfinder/contributors"
+
+[[10]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/derfinder/subscribers"
+
+[[10]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/derfinder/subscription"
+
+[[10]]$commits_url
+[1] "https://api.github.com/repos/jtleek/derfinder/commits{/sha}"
+
+[[10]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/derfinder/git/commits{/sha}"
+
+[[10]]$comments_url
+[1] "https://api.github.com/repos/jtleek/derfinder/comments{/number}"
+
+[[10]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/derfinder/issues/comments{/number}"
+
+[[10]]$contents_url
+[1] "https://api.github.com/repos/jtleek/derfinder/contents/{+path}"
+
+[[10]]$compare_url
+[1] "https://api.github.com/repos/jtleek/derfinder/compare/{base}...{head}"
+
+[[10]]$merges_url
+[1] "https://api.github.com/repos/jtleek/derfinder/merges"
+
+[[10]]$archive_url
+[1] "https://api.github.com/repos/jtleek/derfinder/{archive_format}{/ref}"
+
+[[10]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/derfinder/downloads"
+
+[[10]]$issues_url
+[1] "https://api.github.com/repos/jtleek/derfinder/issues{/number}"
+
+[[10]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/derfinder/pulls{/number}"
+
+[[10]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/derfinder/milestones{/number}"
+
+[[10]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/derfinder/notifications{?since,all,participating}"
+
+[[10]]$labels_url
+[1] "https://api.github.com/repos/jtleek/derfinder/labels{/name}"
+
+[[10]]$releases_url
+[1] "https://api.github.com/repos/jtleek/derfinder/releases{/id}"
+
+[[10]]$created_at
+[1] "2013-07-20T16:05:59Z"
+
+[[10]]$updated_at
+[1] "2015-04-14T04:29:50Z"
+
+[[10]]$pushed_at
+[1] "2013-06-24T21:17:27Z"
+
+[[10]]$git_url
+[1] "git://github.com/jtleek/derfinder.git"
+
+[[10]]$ssh_url
+[1] "git@github.com:jtleek/derfinder.git"
+
+[[10]]$clone_url
+[1] "https://github.com/jtleek/derfinder.git"
+
+[[10]]$svn_url
+[1] "https://github.com/jtleek/derfinder"
+
+[[10]]$homepage
+NULL
+
+[[10]]$size
+[1] 388
+
+[[10]]$stargazers_count
+[1] 0
+
+[[10]]$watchers_count
+[1] 0
+
+[[10]]$language
+[1] "R"
+
+[[10]]$has_issues
+[1] FALSE
+
+[[10]]$has_downloads
+[1] TRUE
+
+[[10]]$has_wiki
+[1] TRUE
+
+[[10]]$has_pages
+[1] FALSE
+
+[[10]]$forks_count
+[1] 0
+
+[[10]]$mirror_url
+NULL
+
+[[10]]$open_issues_count
+[1] 0
+
+[[10]]$forks
+[1] 0
+
+[[10]]$open_issues
+[1] 0
+
+[[10]]$watchers
+[1] 0
+
+[[10]]$default_branch
+[1] "master"
+
+[[10]]$permissions
+[[10]]$permissions$admin
+[1] FALSE
+
+[[10]]$permissions$push
+[1] FALSE
+
+[[10]]$permissions$pull
+[1] TRUE
+
+
+
+[[11]]
+[[11]]$id
+[1] 14240696
+
+[[11]]$name
+[1] "derfinder-1"
+
+[[11]]$full_name
+[1] "jtleek/derfinder-1"
+
+[[11]]$owner
+[[11]]$owner$login
+[1] "jtleek"
+
+[[11]]$owner$id
+[1] 1571674
+
+[[11]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[11]]$owner$gravatar_id
+[1] ""
+
+[[11]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[11]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[11]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[11]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[11]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[11]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[11]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[11]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[11]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[11]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[11]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[11]]$owner$type
+[1] "User"
+
+[[11]]$owner$site_admin
+[1] FALSE
+
+
+[[11]]$private
+[1] FALSE
+
+[[11]]$html_url
+[1] "https://github.com/jtleek/derfinder-1"
+
+[[11]]$description
+[1] "Fast differential expression analysis of RNA-seq data at base-pair resolution"
+
+[[11]]$fork
+[1] TRUE
+
+[[11]]$url
+[1] "https://api.github.com/repos/jtleek/derfinder-1"
+
+[[11]]$forks_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/forks"
+
+[[11]]$keys_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/keys{/key_id}"
+
+[[11]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/collaborators{/collaborator}"
+
+[[11]]$teams_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/teams"
+
+[[11]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/hooks"
+
+[[11]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/issues/events{/number}"
+
+[[11]]$events_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/events"
+
+[[11]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/assignees{/user}"
+
+[[11]]$branches_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/branches{/branch}"
+
+[[11]]$tags_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/tags"
+
+[[11]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/git/blobs{/sha}"
+
+[[11]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/git/tags{/sha}"
+
+[[11]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/git/refs{/sha}"
+
+[[11]]$trees_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/git/trees{/sha}"
+
+[[11]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/statuses/{sha}"
+
+[[11]]$languages_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/languages"
+
+[[11]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/stargazers"
+
+[[11]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/contributors"
+
+[[11]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/subscribers"
+
+[[11]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/subscription"
+
+[[11]]$commits_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/commits{/sha}"
+
+[[11]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/git/commits{/sha}"
+
+[[11]]$comments_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/comments{/number}"
+
+[[11]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/issues/comments{/number}"
+
+[[11]]$contents_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/contents/{+path}"
+
+[[11]]$compare_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/compare/{base}...{head}"
+
+[[11]]$merges_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/merges"
+
+[[11]]$archive_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/{archive_format}{/ref}"
+
+[[11]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/downloads"
+
+[[11]]$issues_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/issues{/number}"
+
+[[11]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/pulls{/number}"
+
+[[11]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/milestones{/number}"
+
+[[11]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/notifications{?since,all,participating}"
+
+[[11]]$labels_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/labels{/name}"
+
+[[11]]$releases_url
+[1] "https://api.github.com/repos/jtleek/derfinder-1/releases{/id}"
+
+[[11]]$created_at
+[1] "2013-11-08T18:16:27Z"
+
+[[11]]$updated_at
+[1] "2013-11-08T20:39:32Z"
+
+[[11]]$pushed_at
+[1] "2013-11-08T18:19:42Z"
+
+[[11]]$git_url
+[1] "git://github.com/jtleek/derfinder-1.git"
+
+[[11]]$ssh_url
+[1] "git@github.com:jtleek/derfinder-1.git"
+
+[[11]]$clone_url
+[1] "https://github.com/jtleek/derfinder-1.git"
+
+[[11]]$svn_url
+[1] "https://github.com/jtleek/derfinder-1"
+
+[[11]]$homepage
+[1] ""
+
+[[11]]$size
+[1] 367
+
+[[11]]$stargazers_count
+[1] 0
+
+[[11]]$watchers_count
+[1] 0
+
+[[11]]$language
+[1] "R"
+
+[[11]]$has_issues
+[1] FALSE
+
+[[11]]$has_downloads
+[1] TRUE
+
+[[11]]$has_wiki
+[1] TRUE
+
+[[11]]$has_pages
+[1] FALSE
+
+[[11]]$forks_count
+[1] 0
+
+[[11]]$mirror_url
+NULL
+
+[[11]]$open_issues_count
+[1] 0
+
+[[11]]$forks
+[1] 0
+
+[[11]]$open_issues
+[1] 0
+
+[[11]]$watchers
+[1] 0
+
+[[11]]$default_branch
+[1] "master"
+
+[[11]]$permissions
+[[11]]$permissions$admin
+[1] FALSE
+
+[[11]]$permissions$push
+[1] FALSE
+
+[[11]]$permissions$pull
+[1] TRUE
+
+
+
+[[12]]
+[[12]]$id
+[1] 11976743
+
+[[12]]$name
+[1] "DSM"
+
+[[12]]$full_name
+[1] "jtleek/DSM"
+
+[[12]]$owner
+[[12]]$owner$login
+[1] "jtleek"
+
+[[12]]$owner$id
+[1] 1571674
+
+[[12]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[12]]$owner$gravatar_id
+[1] ""
+
+[[12]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[12]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[12]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[12]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[12]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[12]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[12]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[12]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[12]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[12]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[12]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[12]]$owner$type
+[1] "User"
+
+[[12]]$owner$site_admin
+[1] FALSE
+
+
+[[12]]$private
+[1] FALSE
+
+[[12]]$html_url
+[1] "https://github.com/jtleek/DSM"
+
+[[12]]$description
+[1] "Deterministic Statistical Machine"
+
+[[12]]$fork
+[1] TRUE
+
+[[12]]$url
+[1] "https://api.github.com/repos/jtleek/DSM"
+
+[[12]]$forks_url
+[1] "https://api.github.com/repos/jtleek/DSM/forks"
+
+[[12]]$keys_url
+[1] "https://api.github.com/repos/jtleek/DSM/keys{/key_id}"
+
+[[12]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/DSM/collaborators{/collaborator}"
+
+[[12]]$teams_url
+[1] "https://api.github.com/repos/jtleek/DSM/teams"
+
+[[12]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/DSM/hooks"
+
+[[12]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/DSM/issues/events{/number}"
+
+[[12]]$events_url
+[1] "https://api.github.com/repos/jtleek/DSM/events"
+
+[[12]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/DSM/assignees{/user}"
+
+[[12]]$branches_url
+[1] "https://api.github.com/repos/jtleek/DSM/branches{/branch}"
+
+[[12]]$tags_url
+[1] "https://api.github.com/repos/jtleek/DSM/tags"
+
+[[12]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/DSM/git/blobs{/sha}"
+
+[[12]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/DSM/git/tags{/sha}"
+
+[[12]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/DSM/git/refs{/sha}"
+
+[[12]]$trees_url
+[1] "https://api.github.com/repos/jtleek/DSM/git/trees{/sha}"
+
+[[12]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/DSM/statuses/{sha}"
+
+[[12]]$languages_url
+[1] "https://api.github.com/repos/jtleek/DSM/languages"
+
+[[12]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/DSM/stargazers"
+
+[[12]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/DSM/contributors"
+
+[[12]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/DSM/subscribers"
+
+[[12]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/DSM/subscription"
+
+[[12]]$commits_url
+[1] "https://api.github.com/repos/jtleek/DSM/commits{/sha}"
+
+[[12]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/DSM/git/commits{/sha}"
+
+[[12]]$comments_url
+[1] "https://api.github.com/repos/jtleek/DSM/comments{/number}"
+
+[[12]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/DSM/issues/comments{/number}"
+
+[[12]]$contents_url
+[1] "https://api.github.com/repos/jtleek/DSM/contents/{+path}"
+
+[[12]]$compare_url
+[1] "https://api.github.com/repos/jtleek/DSM/compare/{base}...{head}"
+
+[[12]]$merges_url
+[1] "https://api.github.com/repos/jtleek/DSM/merges"
+
+[[12]]$archive_url
+[1] "https://api.github.com/repos/jtleek/DSM/{archive_format}{/ref}"
+
+[[12]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/DSM/downloads"
+
+[[12]]$issues_url
+[1] "https://api.github.com/repos/jtleek/DSM/issues{/number}"
+
+[[12]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/DSM/pulls{/number}"
+
+[[12]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/DSM/milestones{/number}"
+
+[[12]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/DSM/notifications{?since,all,participating}"
+
+[[12]]$labels_url
+[1] "https://api.github.com/repos/jtleek/DSM/labels{/name}"
+
+[[12]]$releases_url
+[1] "https://api.github.com/repos/jtleek/DSM/releases{/id}"
+
+[[12]]$created_at
+[1] "2013-08-08T13:20:40Z"
+
+[[12]]$updated_at
+[1] "2013-08-08T13:20:42Z"
+
+[[12]]$pushed_at
+[1] "2013-08-06T17:36:58Z"
+
+[[12]]$git_url
+[1] "git://github.com/jtleek/DSM.git"
+
+[[12]]$ssh_url
+[1] "git@github.com:jtleek/DSM.git"
+
+[[12]]$clone_url
+[1] "https://github.com/jtleek/DSM.git"
+
+[[12]]$svn_url
+[1] "https://github.com/jtleek/DSM"
+
+[[12]]$homepage
+NULL
+
+[[12]]$size
+[1] 50000
+
+[[12]]$stargazers_count
+[1] 0
+
+[[12]]$watchers_count
+[1] 0
+
+[[12]]$language
+[1] "R"
+
+[[12]]$has_issues
+[1] FALSE
+
+[[12]]$has_downloads
+[1] TRUE
+
+[[12]]$has_wiki
+[1] TRUE
+
+[[12]]$has_pages
+[1] FALSE
+
+[[12]]$forks_count
+[1] 0
+
+[[12]]$mirror_url
+NULL
+
+[[12]]$open_issues_count
+[1] 0
+
+[[12]]$forks
+[1] 0
+
+[[12]]$open_issues
+[1] 0
+
+[[12]]$watchers
+[1] 0
+
+[[12]]$default_branch
+[1] "master"
+
+[[12]]$permissions
+[[12]]$permissions$admin
+[1] FALSE
+
+[[12]]$permissions$push
+[1] FALSE
+
+[[12]]$permissions$pull
+[1] TRUE
+
+
+
+[[13]]
+[[13]]$id
+[1] 8730097
+
+[[13]]$name
+[1] "EDA-Project"
+
+[[13]]$full_name
+[1] "jtleek/EDA-Project"
+
+[[13]]$owner
+[[13]]$owner$login
+[1] "jtleek"
+
+[[13]]$owner$id
+[1] 1571674
+
+[[13]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[13]]$owner$gravatar_id
+[1] ""
+
+[[13]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[13]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[13]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[13]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[13]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[13]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[13]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[13]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[13]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[13]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[13]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[13]]$owner$type
+[1] "User"
+
+[[13]]$owner$site_admin
+[1] FALSE
+
+
+[[13]]$private
+[1] FALSE
+
+[[13]]$html_url
+[1] "https://github.com/jtleek/EDA-Project"
+
+[[13]]$description
+NULL
+
+[[13]]$fork
+[1] TRUE
+
+[[13]]$url
+[1] "https://api.github.com/repos/jtleek/EDA-Project"
+
+[[13]]$forks_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/forks"
+
+[[13]]$keys_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/keys{/key_id}"
+
+[[13]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/collaborators{/collaborator}"
+
+[[13]]$teams_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/teams"
+
+[[13]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/hooks"
+
+[[13]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/issues/events{/number}"
+
+[[13]]$events_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/events"
+
+[[13]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/assignees{/user}"
+
+[[13]]$branches_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/branches{/branch}"
+
+[[13]]$tags_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/tags"
+
+[[13]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/git/blobs{/sha}"
+
+[[13]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/git/tags{/sha}"
+
+[[13]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/git/refs{/sha}"
+
+[[13]]$trees_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/git/trees{/sha}"
+
+[[13]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/statuses/{sha}"
+
+[[13]]$languages_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/languages"
+
+[[13]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/stargazers"
+
+[[13]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/contributors"
+
+[[13]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/subscribers"
+
+[[13]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/subscription"
+
+[[13]]$commits_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/commits{/sha}"
+
+[[13]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/git/commits{/sha}"
+
+[[13]]$comments_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/comments{/number}"
+
+[[13]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/issues/comments{/number}"
+
+[[13]]$contents_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/contents/{+path}"
+
+[[13]]$compare_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/compare/{base}...{head}"
+
+[[13]]$merges_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/merges"
+
+[[13]]$archive_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/{archive_format}{/ref}"
+
+[[13]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/downloads"
+
+[[13]]$issues_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/issues{/number}"
+
+[[13]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/pulls{/number}"
+
+[[13]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/milestones{/number}"
+
+[[13]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/notifications{?since,all,participating}"
+
+[[13]]$labels_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/labels{/name}"
+
+[[13]]$releases_url
+[1] "https://api.github.com/repos/jtleek/EDA-Project/releases{/id}"
+
+[[13]]$created_at
+[1] "2013-03-12T14:46:24Z"
+
+[[13]]$updated_at
+[1] "2014-06-05T17:59:15Z"
+
+[[13]]$pushed_at
+[1] "2013-03-10T23:17:30Z"
+
+[[13]]$git_url
+[1] "git://github.com/jtleek/EDA-Project.git"
+
+[[13]]$ssh_url
+[1] "git@github.com:jtleek/EDA-Project.git"
+
+[[13]]$clone_url
+[1] "https://github.com/jtleek/EDA-Project.git"
+
+[[13]]$svn_url
+[1] "https://github.com/jtleek/EDA-Project"
+
+[[13]]$homepage
+NULL
+
+[[13]]$size
+[1] 91008
+
+[[13]]$stargazers_count
+[1] 1
+
+[[13]]$watchers_count
+[1] 1
+
+[[13]]$language
+[1] "JavaScript"
+
+[[13]]$has_issues
+[1] FALSE
+
+[[13]]$has_downloads
+[1] TRUE
+
+[[13]]$has_wiki
+[1] TRUE
+
+[[13]]$has_pages
+[1] FALSE
+
+[[13]]$forks_count
+[1] 0
+
+[[13]]$mirror_url
+NULL
+
+[[13]]$open_issues_count
+[1] 0
+
+[[13]]$forks
+[1] 0
+
+[[13]]$open_issues
+[1] 0
+
+[[13]]$watchers
+[1] 1
+
+[[13]]$default_branch
+[1] "master"
+
+[[13]]$permissions
+[[13]]$permissions$admin
+[1] FALSE
+
+[[13]]$permissions$push
+[1] FALSE
+
+[[13]]$permissions$pull
+[1] TRUE
+
+
+
+[[14]]
+[[14]]$id
+[1] 42663787
+
+[[14]]$name
+[1] "firstpaper"
+
+[[14]]$full_name
+[1] "jtleek/firstpaper"
+
+[[14]]$owner
+[[14]]$owner$login
+[1] "jtleek"
+
+[[14]]$owner$id
+[1] 1571674
+
+[[14]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[14]]$owner$gravatar_id
+[1] ""
+
+[[14]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[14]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[14]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[14]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[14]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[14]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[14]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[14]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[14]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[14]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[14]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[14]]$owner$type
+[1] "User"
+
+[[14]]$owner$site_admin
+[1] FALSE
+
+
+[[14]]$private
+[1] FALSE
+
+[[14]]$html_url
+[1] "https://github.com/jtleek/firstpaper"
+
+[[14]]$description
+[1] ""
+
+[[14]]$fork
+[1] FALSE
+
+[[14]]$url
+[1] "https://api.github.com/repos/jtleek/firstpaper"
+
+[[14]]$forks_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/forks"
+
+[[14]]$keys_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/keys{/key_id}"
+
+[[14]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/collaborators{/collaborator}"
+
+[[14]]$teams_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/teams"
+
+[[14]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/hooks"
+
+[[14]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/issues/events{/number}"
+
+[[14]]$events_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/events"
+
+[[14]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/assignees{/user}"
+
+[[14]]$branches_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/branches{/branch}"
+
+[[14]]$tags_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/tags"
+
+[[14]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/git/blobs{/sha}"
+
+[[14]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/git/tags{/sha}"
+
+[[14]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/git/refs{/sha}"
+
+[[14]]$trees_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/git/trees{/sha}"
+
+[[14]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/statuses/{sha}"
+
+[[14]]$languages_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/languages"
+
+[[14]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/stargazers"
+
+[[14]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/contributors"
+
+[[14]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/subscribers"
+
+[[14]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/subscription"
+
+[[14]]$commits_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/commits{/sha}"
+
+[[14]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/git/commits{/sha}"
+
+[[14]]$comments_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/comments{/number}"
+
+[[14]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/issues/comments{/number}"
+
+[[14]]$contents_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/contents/{+path}"
+
+[[14]]$compare_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/compare/{base}...{head}"
+
+[[14]]$merges_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/merges"
+
+[[14]]$archive_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/{archive_format}{/ref}"
+
+[[14]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/downloads"
+
+[[14]]$issues_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/issues{/number}"
+
+[[14]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/pulls{/number}"
+
+[[14]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/milestones{/number}"
+
+[[14]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/notifications{?since,all,participating}"
+
+[[14]]$labels_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/labels{/name}"
+
+[[14]]$releases_url
+[1] "https://api.github.com/repos/jtleek/firstpaper/releases{/id}"
+
+[[14]]$created_at
+[1] "2015-09-17T15:17:01Z"
+
+[[14]]$updated_at
+[1] "2016-01-04T20:36:30Z"
+
+[[14]]$pushed_at
+[1] "2015-10-25T23:20:32Z"
+
+[[14]]$git_url
+[1] "git://github.com/jtleek/firstpaper.git"
+
+[[14]]$ssh_url
+[1] "git@github.com:jtleek/firstpaper.git"
+
+[[14]]$clone_url
+[1] "https://github.com/jtleek/firstpaper.git"
+
+[[14]]$svn_url
+[1] "https://github.com/jtleek/firstpaper"
+
+[[14]]$homepage
+NULL
+
+[[14]]$size
+[1] 218
+
+[[14]]$stargazers_count
+[1] 101
+
+[[14]]$watchers_count
+[1] 101
+
+[[14]]$language
+NULL
+
+[[14]]$has_issues
+[1] TRUE
+
+[[14]]$has_downloads
+[1] TRUE
+
+[[14]]$has_wiki
+[1] TRUE
+
+[[14]]$has_pages
+[1] FALSE
+
+[[14]]$forks_count
+[1] 26
+
+[[14]]$mirror_url
+NULL
+
+[[14]]$open_issues_count
+[1] 0
+
+[[14]]$forks
+[1] 26
+
+[[14]]$open_issues
+[1] 0
+
+[[14]]$watchers
+[1] 101
+
+[[14]]$default_branch
+[1] "master"
+
+[[14]]$permissions
+[[14]]$permissions$admin
+[1] FALSE
+
+[[14]]$permissions$push
+[1] FALSE
+
+[[14]]$permissions$pull
+[1] TRUE
+
+
+
+[[15]]
+[[15]]$id
+[1] 14590772
+
+[[15]]$name
+[1] "futureofstats"
+
+[[15]]$full_name
+[1] "jtleek/futureofstats"
+
+[[15]]$owner
+[[15]]$owner$login
+[1] "jtleek"
+
+[[15]]$owner$id
+[1] 1571674
+
+[[15]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[15]]$owner$gravatar_id
+[1] ""
+
+[[15]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[15]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[15]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[15]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[15]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[15]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[15]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[15]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[15]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[15]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[15]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[15]]$owner$type
+[1] "User"
+
+[[15]]$owner$site_admin
+[1] FALSE
+
+
+[[15]]$private
+[1] FALSE
+
+[[15]]$html_url
+[1] "https://github.com/jtleek/futureofstats"
+
+[[15]]$description
+[1] "Take Homes from the Unconference on the Future of Statistics #futureofstats"
+
+[[15]]$fork
+[1] FALSE
+
+[[15]]$url
+[1] "https://api.github.com/repos/jtleek/futureofstats"
+
+[[15]]$forks_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/forks"
+
+[[15]]$keys_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/keys{/key_id}"
+
+[[15]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/collaborators{/collaborator}"
+
+[[15]]$teams_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/teams"
+
+[[15]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/hooks"
+
+[[15]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/issues/events{/number}"
+
+[[15]]$events_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/events"
+
+[[15]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/assignees{/user}"
+
+[[15]]$branches_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/branches{/branch}"
+
+[[15]]$tags_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/tags"
+
+[[15]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/git/blobs{/sha}"
+
+[[15]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/git/tags{/sha}"
+
+[[15]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/git/refs{/sha}"
+
+[[15]]$trees_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/git/trees{/sha}"
+
+[[15]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/statuses/{sha}"
+
+[[15]]$languages_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/languages"
+
+[[15]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/stargazers"
+
+[[15]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/contributors"
+
+[[15]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/subscribers"
+
+[[15]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/subscription"
+
+[[15]]$commits_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/commits{/sha}"
+
+[[15]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/git/commits{/sha}"
+
+[[15]]$comments_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/comments{/number}"
+
+[[15]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/issues/comments{/number}"
+
+[[15]]$contents_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/contents/{+path}"
+
+[[15]]$compare_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/compare/{base}...{head}"
+
+[[15]]$merges_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/merges"
+
+[[15]]$archive_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/{archive_format}{/ref}"
+
+[[15]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/downloads"
+
+[[15]]$issues_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/issues{/number}"
+
+[[15]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/pulls{/number}"
+
+[[15]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/milestones{/number}"
+
+[[15]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/notifications{?since,all,participating}"
+
+[[15]]$labels_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/labels{/name}"
+
+[[15]]$releases_url
+[1] "https://api.github.com/repos/jtleek/futureofstats/releases{/id}"
+
+[[15]]$created_at
+[1] "2013-11-21T15:07:59Z"
+
+[[15]]$updated_at
+[1] "2015-11-08T11:25:20Z"
+
+[[15]]$pushed_at
+[1] "2013-11-22T03:06:56Z"
+
+[[15]]$git_url
+[1] "git://github.com/jtleek/futureofstats.git"
+
+[[15]]$ssh_url
+[1] "git@github.com:jtleek/futureofstats.git"
+
+[[15]]$clone_url
+[1] "https://github.com/jtleek/futureofstats.git"
+
+[[15]]$svn_url
+[1] "https://github.com/jtleek/futureofstats"
+
+[[15]]$homepage
+NULL
+
+[[15]]$size
+[1] 147
+
+[[15]]$stargazers_count
+[1] 28
+
+[[15]]$watchers_count
+[1] 28
+
+[[15]]$language
+NULL
+
+[[15]]$has_issues
+[1] TRUE
+
+[[15]]$has_downloads
+[1] TRUE
+
+[[15]]$has_wiki
+[1] TRUE
+
+[[15]]$has_pages
+[1] FALSE
+
+[[15]]$forks_count
+[1] 21
+
+[[15]]$mirror_url
+NULL
+
+[[15]]$open_issues_count
+[1] 1
+
+[[15]]$forks
+[1] 21
+
+[[15]]$open_issues
+[1] 1
+
+[[15]]$watchers
+[1] 28
+
+[[15]]$default_branch
+[1] "master"
+
+[[15]]$permissions
+[[15]]$permissions$admin
+[1] FALSE
+
+[[15]]$permissions$push
+[1] FALSE
+
+[[15]]$permissions$pull
+[1] TRUE
+
+
+
+[[16]]
+[[16]]$id
+[1] 24905212
+
+[[16]]$name
+[1] "genomicspapers"
+
+[[16]]$full_name
+[1] "jtleek/genomicspapers"
+
+[[16]]$owner
+[[16]]$owner$login
+[1] "jtleek"
+
+[[16]]$owner$id
+[1] 1571674
+
+[[16]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[16]]$owner$gravatar_id
+[1] ""
+
+[[16]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[16]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[16]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[16]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[16]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[16]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[16]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[16]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[16]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[16]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[16]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[16]]$owner$type
+[1] "User"
+
+[[16]]$owner$site_admin
+[1] FALSE
+
+
+[[16]]$private
+[1] FALSE
+
+[[16]]$html_url
+[1] "https://github.com/jtleek/genomicspapers"
+
+[[16]]$description
+[1] "The Leek group guide to genomics papers"
+
+[[16]]$fork
+[1] FALSE
+
+[[16]]$url
+[1] "https://api.github.com/repos/jtleek/genomicspapers"
+
+[[16]]$forks_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/forks"
+
+[[16]]$keys_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/keys{/key_id}"
+
+[[16]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/collaborators{/collaborator}"
+
+[[16]]$teams_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/teams"
+
+[[16]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/hooks"
+
+[[16]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/issues/events{/number}"
+
+[[16]]$events_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/events"
+
+[[16]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/assignees{/user}"
+
+[[16]]$branches_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/branches{/branch}"
+
+[[16]]$tags_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/tags"
+
+[[16]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/git/blobs{/sha}"
+
+[[16]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/git/tags{/sha}"
+
+[[16]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/git/refs{/sha}"
+
+[[16]]$trees_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/git/trees{/sha}"
+
+[[16]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/statuses/{sha}"
+
+[[16]]$languages_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/languages"
+
+[[16]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/stargazers"
+
+[[16]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/contributors"
+
+[[16]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/subscribers"
+
+[[16]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/subscription"
+
+[[16]]$commits_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/commits{/sha}"
+
+[[16]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/git/commits{/sha}"
+
+[[16]]$comments_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/comments{/number}"
+
+[[16]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/issues/comments{/number}"
+
+[[16]]$contents_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/contents/{+path}"
+
+[[16]]$compare_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/compare/{base}...{head}"
+
+[[16]]$merges_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/merges"
+
+[[16]]$archive_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/{archive_format}{/ref}"
+
+[[16]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/downloads"
+
+[[16]]$issues_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/issues{/number}"
+
+[[16]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/pulls{/number}"
+
+[[16]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/milestones{/number}"
+
+[[16]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/notifications{?since,all,participating}"
+
+[[16]]$labels_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/labels{/name}"
+
+[[16]]$releases_url
+[1] "https://api.github.com/repos/jtleek/genomicspapers/releases{/id}"
+
+[[16]]$created_at
+[1] "2014-10-07T18:32:10Z"
+
+[[16]]$updated_at
+[1] "2015-12-18T12:44:21Z"
+
+[[16]]$pushed_at
+[1] "2014-11-17T01:42:23Z"
+
+[[16]]$git_url
+[1] "git://github.com/jtleek/genomicspapers.git"
+
+[[16]]$ssh_url
+[1] "git@github.com:jtleek/genomicspapers.git"
+
+[[16]]$clone_url
+[1] "https://github.com/jtleek/genomicspapers.git"
+
+[[16]]$svn_url
+[1] "https://github.com/jtleek/genomicspapers"
+
+[[16]]$homepage
+NULL
+
+[[16]]$size
+[1] 197
+
+[[16]]$stargazers_count
+[1] 165
+
+[[16]]$watchers_count
+[1] 165
+
+[[16]]$language
+NULL
+
+[[16]]$has_issues
+[1] TRUE
+
+[[16]]$has_downloads
+[1] TRUE
+
+[[16]]$has_wiki
+[1] TRUE
+
+[[16]]$has_pages
+[1] FALSE
+
+[[16]]$forks_count
+[1] 75
+
+[[16]]$mirror_url
+NULL
+
+[[16]]$open_issues_count
+[1] 1
+
+[[16]]$forks
+[1] 75
+
+[[16]]$open_issues
+[1] 1
+
+[[16]]$watchers
+[1] 165
+
+[[16]]$default_branch
+[1] "master"
+
+[[16]]$permissions
+[[16]]$permissions$admin
+[1] FALSE
+
+[[16]]$permissions$push
+[1] FALSE
+
+[[16]]$permissions$pull
+[1] TRUE
+
+
+
+[[17]]
+[[17]]$id
+[1] 39025267
+
+[[17]]$name
+[1] "genstats"
+
+[[17]]$full_name
+[1] "jtleek/genstats"
+
+[[17]]$owner
+[[17]]$owner$login
+[1] "jtleek"
+
+[[17]]$owner$id
+[1] 1571674
+
+[[17]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[17]]$owner$gravatar_id
+[1] ""
+
+[[17]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[17]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[17]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[17]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[17]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[17]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[17]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[17]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[17]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[17]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[17]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[17]]$owner$type
+[1] "User"
+
+[[17]]$owner$site_admin
+[1] FALSE
+
+
+[[17]]$private
+[1] FALSE
+
+[[17]]$html_url
+[1] "https://github.com/jtleek/genstats"
+
+[[17]]$description
+[1] "Statistics course for JHU Genomic Data Science Sequence"
+
+[[17]]$fork
+[1] FALSE
+
+[[17]]$url
+[1] "https://api.github.com/repos/jtleek/genstats"
+
+[[17]]$forks_url
+[1] "https://api.github.com/repos/jtleek/genstats/forks"
+
+[[17]]$keys_url
+[1] "https://api.github.com/repos/jtleek/genstats/keys{/key_id}"
+
+[[17]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/genstats/collaborators{/collaborator}"
+
+[[17]]$teams_url
+[1] "https://api.github.com/repos/jtleek/genstats/teams"
+
+[[17]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/genstats/hooks"
+
+[[17]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/genstats/issues/events{/number}"
+
+[[17]]$events_url
+[1] "https://api.github.com/repos/jtleek/genstats/events"
+
+[[17]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/genstats/assignees{/user}"
+
+[[17]]$branches_url
+[1] "https://api.github.com/repos/jtleek/genstats/branches{/branch}"
+
+[[17]]$tags_url
+[1] "https://api.github.com/repos/jtleek/genstats/tags"
+
+[[17]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/genstats/git/blobs{/sha}"
+
+[[17]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/genstats/git/tags{/sha}"
+
+[[17]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/genstats/git/refs{/sha}"
+
+[[17]]$trees_url
+[1] "https://api.github.com/repos/jtleek/genstats/git/trees{/sha}"
+
+[[17]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/genstats/statuses/{sha}"
+
+[[17]]$languages_url
+[1] "https://api.github.com/repos/jtleek/genstats/languages"
+
+[[17]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/genstats/stargazers"
+
+[[17]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/genstats/contributors"
+
+[[17]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/genstats/subscribers"
+
+[[17]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/genstats/subscription"
+
+[[17]]$commits_url
+[1] "https://api.github.com/repos/jtleek/genstats/commits{/sha}"
+
+[[17]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/genstats/git/commits{/sha}"
+
+[[17]]$comments_url
+[1] "https://api.github.com/repos/jtleek/genstats/comments{/number}"
+
+[[17]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/genstats/issues/comments{/number}"
+
+[[17]]$contents_url
+[1] "https://api.github.com/repos/jtleek/genstats/contents/{+path}"
+
+[[17]]$compare_url
+[1] "https://api.github.com/repos/jtleek/genstats/compare/{base}...{head}"
+
+[[17]]$merges_url
+[1] "https://api.github.com/repos/jtleek/genstats/merges"
+
+[[17]]$archive_url
+[1] "https://api.github.com/repos/jtleek/genstats/{archive_format}{/ref}"
+
+[[17]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/genstats/downloads"
+
+[[17]]$issues_url
+[1] "https://api.github.com/repos/jtleek/genstats/issues{/number}"
+
+[[17]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/genstats/pulls{/number}"
+
+[[17]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/genstats/milestones{/number}"
+
+[[17]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/genstats/notifications{?since,all,participating}"
+
+[[17]]$labels_url
+[1] "https://api.github.com/repos/jtleek/genstats/labels{/name}"
+
+[[17]]$releases_url
+[1] "https://api.github.com/repos/jtleek/genstats/releases{/id}"
+
+[[17]]$created_at
+[1] "2015-07-13T16:55:21Z"
+
+[[17]]$updated_at
+[1] "2015-12-21T16:20:00Z"
+
+[[17]]$pushed_at
+[1] "2015-09-19T13:32:57Z"
+
+[[17]]$git_url
+[1] "git://github.com/jtleek/genstats.git"
+
+[[17]]$ssh_url
+[1] "git@github.com:jtleek/genstats.git"
+
+[[17]]$clone_url
+[1] "https://github.com/jtleek/genstats.git"
+
+[[17]]$svn_url
+[1] "https://github.com/jtleek/genstats"
+
+[[17]]$homepage
+NULL
+
+[[17]]$size
+[1] 15870
+
+[[17]]$stargazers_count
+[1] 28
+
+[[17]]$watchers_count
+[1] 28
+
+[[17]]$language
+[1] "HTML"
+
+[[17]]$has_issues
+[1] TRUE
+
+[[17]]$has_downloads
+[1] TRUE
+
+[[17]]$has_wiki
+[1] TRUE
+
+[[17]]$has_pages
+[1] TRUE
+
+[[17]]$forks_count
+[1] 77
+
+[[17]]$mirror_url
+NULL
+
+[[17]]$open_issues_count
+[1] 2
+
+[[17]]$forks
+[1] 77
+
+[[17]]$open_issues
+[1] 2
+
+[[17]]$watchers
+[1] 28
+
+[[17]]$default_branch
+[1] "gh-pages"
+
+[[17]]$permissions
+[[17]]$permissions$admin
+[1] FALSE
+
+[[17]]$permissions$push
+[1] FALSE
+
+[[17]]$permissions$pull
+[1] TRUE
+
+
+
+[[18]]
+[[18]]$id
+[1] 41094217
+
+[[18]]$name
+[1] "genstats_site"
+
+[[18]]$full_name
+[1] "jtleek/genstats_site"
+
+[[18]]$owner
+[[18]]$owner$login
+[1] "jtleek"
+
+[[18]]$owner$id
+[1] 1571674
+
+[[18]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[18]]$owner$gravatar_id
+[1] ""
+
+[[18]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[18]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[18]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[18]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[18]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[18]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[18]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[18]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[18]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[18]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[18]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[18]]$owner$type
+[1] "User"
+
+[[18]]$owner$site_admin
+[1] FALSE
+
+
+[[18]]$private
+[1] FALSE
+
+[[18]]$html_url
+[1] "https://github.com/jtleek/genstats_site"
+
+[[18]]$description
+[1] "Site for Genomic Data Science Class"
+
+[[18]]$fork
+[1] FALSE
+
+[[18]]$url
+[1] "https://api.github.com/repos/jtleek/genstats_site"
+
+[[18]]$forks_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/forks"
+
+[[18]]$keys_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/keys{/key_id}"
+
+[[18]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/collaborators{/collaborator}"
+
+[[18]]$teams_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/teams"
+
+[[18]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/hooks"
+
+[[18]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/issues/events{/number}"
+
+[[18]]$events_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/events"
+
+[[18]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/assignees{/user}"
+
+[[18]]$branches_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/branches{/branch}"
+
+[[18]]$tags_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/tags"
+
+[[18]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/git/blobs{/sha}"
+
+[[18]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/git/tags{/sha}"
+
+[[18]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/git/refs{/sha}"
+
+[[18]]$trees_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/git/trees{/sha}"
+
+[[18]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/statuses/{sha}"
+
+[[18]]$languages_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/languages"
+
+[[18]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/stargazers"
+
+[[18]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/contributors"
+
+[[18]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/subscribers"
+
+[[18]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/subscription"
+
+[[18]]$commits_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/commits{/sha}"
+
+[[18]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/git/commits{/sha}"
+
+[[18]]$comments_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/comments{/number}"
+
+[[18]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/issues/comments{/number}"
+
+[[18]]$contents_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/contents/{+path}"
+
+[[18]]$compare_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/compare/{base}...{head}"
+
+[[18]]$merges_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/merges"
+
+[[18]]$archive_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/{archive_format}{/ref}"
+
+[[18]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/downloads"
+
+[[18]]$issues_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/issues{/number}"
+
+[[18]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/pulls{/number}"
+
+[[18]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/milestones{/number}"
+
+[[18]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/notifications{?since,all,participating}"
+
+[[18]]$labels_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/labels{/name}"
+
+[[18]]$releases_url
+[1] "https://api.github.com/repos/jtleek/genstats_site/releases{/id}"
+
+[[18]]$created_at
+[1] "2015-08-20T12:23:21Z"
+
+[[18]]$updated_at
+[1] "2015-09-08T15:51:09Z"
+
+[[18]]$pushed_at
+[1] "2015-09-07T13:54:52Z"
+
+[[18]]$git_url
+[1] "git://github.com/jtleek/genstats_site.git"
+
+[[18]]$ssh_url
+[1] "git@github.com:jtleek/genstats_site.git"
+
+[[18]]$clone_url
+[1] "https://github.com/jtleek/genstats_site.git"
+
+[[18]]$svn_url
+[1] "https://github.com/jtleek/genstats_site"
+
+[[18]]$homepage
+NULL
+
+[[18]]$size
+[1] 41702
+
+[[18]]$stargazers_count
+[1] 4
+
+[[18]]$watchers_count
+[1] 4
+
+[[18]]$language
+[1] "HTML"
+
+[[18]]$has_issues
+[1] TRUE
+
+[[18]]$has_downloads
+[1] TRUE
+
+[[18]]$has_wiki
+[1] TRUE
+
+[[18]]$has_pages
+[1] TRUE
+
+[[18]]$forks_count
+[1] 2
+
+[[18]]$mirror_url
+NULL
+
+[[18]]$open_issues_count
+[1] 0
+
+[[18]]$forks
+[1] 2
+
+[[18]]$open_issues
+[1] 0
+
+[[18]]$watchers
+[1] 4
+
+[[18]]$default_branch
+[1] "gh-pages"
+
+[[18]]$permissions
+[[18]]$permissions$admin
+[1] FALSE
+
+[[18]]$permissions$push
+[1] FALSE
+
+[[18]]$permissions$pull
+[1] TRUE
+
+
+
+[[19]]
+[[19]]$id
+[1] 12563551
+
+[[19]]$name
+[1] "googleCite"
+
+[[19]]$full_name
+[1] "jtleek/googleCite"
+
+[[19]]$owner
+[[19]]$owner$login
+[1] "jtleek"
+
+[[19]]$owner$id
+[1] 1571674
+
+[[19]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[19]]$owner$gravatar_id
+[1] ""
+
+[[19]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[19]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[19]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[19]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[19]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[19]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[19]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[19]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[19]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[19]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[19]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[19]]$owner$type
+[1] "User"
+
+[[19]]$owner$site_admin
+[1] FALSE
+
+
+[[19]]$private
+[1] FALSE
+
+[[19]]$html_url
+[1] "https://github.com/jtleek/googleCite"
+
+[[19]]$description
+[1] "googleCite is a function for creating a wordcloud of your google scholar citations page. "
+
+[[19]]$fork
+[1] FALSE
+
+[[19]]$url
+[1] "https://api.github.com/repos/jtleek/googleCite"
+
+[[19]]$forks_url
+[1] "https://api.github.com/repos/jtleek/googleCite/forks"
+
+[[19]]$keys_url
+[1] "https://api.github.com/repos/jtleek/googleCite/keys{/key_id}"
+
+[[19]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/googleCite/collaborators{/collaborator}"
+
+[[19]]$teams_url
+[1] "https://api.github.com/repos/jtleek/googleCite/teams"
+
+[[19]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/googleCite/hooks"
+
+[[19]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/googleCite/issues/events{/number}"
+
+[[19]]$events_url
+[1] "https://api.github.com/repos/jtleek/googleCite/events"
+
+[[19]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/googleCite/assignees{/user}"
+
+[[19]]$branches_url
+[1] "https://api.github.com/repos/jtleek/googleCite/branches{/branch}"
+
+[[19]]$tags_url
+[1] "https://api.github.com/repos/jtleek/googleCite/tags"
+
+[[19]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/googleCite/git/blobs{/sha}"
+
+[[19]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/googleCite/git/tags{/sha}"
+
+[[19]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/googleCite/git/refs{/sha}"
+
+[[19]]$trees_url
+[1] "https://api.github.com/repos/jtleek/googleCite/git/trees{/sha}"
+
+[[19]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/googleCite/statuses/{sha}"
+
+[[19]]$languages_url
+[1] "https://api.github.com/repos/jtleek/googleCite/languages"
+
+[[19]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/googleCite/stargazers"
+
+[[19]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/googleCite/contributors"
+
+[[19]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/googleCite/subscribers"
+
+[[19]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/googleCite/subscription"
+
+[[19]]$commits_url
+[1] "https://api.github.com/repos/jtleek/googleCite/commits{/sha}"
+
+[[19]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/googleCite/git/commits{/sha}"
+
+[[19]]$comments_url
+[1] "https://api.github.com/repos/jtleek/googleCite/comments{/number}"
+
+[[19]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/googleCite/issues/comments{/number}"
+
+[[19]]$contents_url
+[1] "https://api.github.com/repos/jtleek/googleCite/contents/{+path}"
+
+[[19]]$compare_url
+[1] "https://api.github.com/repos/jtleek/googleCite/compare/{base}...{head}"
+
+[[19]]$merges_url
+[1] "https://api.github.com/repos/jtleek/googleCite/merges"
+
+[[19]]$archive_url
+[1] "https://api.github.com/repos/jtleek/googleCite/{archive_format}{/ref}"
+
+[[19]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/googleCite/downloads"
+
+[[19]]$issues_url
+[1] "https://api.github.com/repos/jtleek/googleCite/issues{/number}"
+
+[[19]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/googleCite/pulls{/number}"
+
+[[19]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/googleCite/milestones{/number}"
+
+[[19]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/googleCite/notifications{?since,all,participating}"
+
+[[19]]$labels_url
+[1] "https://api.github.com/repos/jtleek/googleCite/labels{/name}"
+
+[[19]]$releases_url
+[1] "https://api.github.com/repos/jtleek/googleCite/releases{/id}"
+
+[[19]]$created_at
+[1] "2013-09-03T12:48:28Z"
+
+[[19]]$updated_at
+[1] "2015-02-01T10:32:49Z"
+
+[[19]]$pushed_at
+[1] "2013-09-03T14:10:06Z"
+
+[[19]]$git_url
+[1] "git://github.com/jtleek/googleCite.git"
+
+[[19]]$ssh_url
+[1] "git@github.com:jtleek/googleCite.git"
+
+[[19]]$clone_url
+[1] "https://github.com/jtleek/googleCite.git"
+
+[[19]]$svn_url
+[1] "https://github.com/jtleek/googleCite"
+
+[[19]]$homepage
+NULL
+
+[[19]]$size
+[1] 116
+
+[[19]]$stargazers_count
+[1] 2
+
+[[19]]$watchers_count
+[1] 2
+
+[[19]]$language
+NULL
+
+[[19]]$has_issues
+[1] TRUE
+
+[[19]]$has_downloads
+[1] TRUE
+
+[[19]]$has_wiki
+[1] TRUE
+
+[[19]]$has_pages
+[1] FALSE
+
+[[19]]$forks_count
+[1] 5
+
+[[19]]$mirror_url
+NULL
+
+[[19]]$open_issues_count
+[1] 0
+
+[[19]]$forks
+[1] 5
+
+[[19]]$open_issues
+[1] 0
+
+[[19]]$watchers
+[1] 2
+
+[[19]]$default_branch
+[1] "master"
+
+[[19]]$permissions
+[[19]]$permissions$admin
+[1] FALSE
+
+[[19]]$permissions$push
+[1] FALSE
+
+[[19]]$permissions$pull
+[1] TRUE
+
+
+
+[[20]]
+[[20]]$id
+[1] 6582536
+
+[[20]]$name
+[1] "graduate"
+
+[[20]]$full_name
+[1] "jtleek/graduate"
+
+[[20]]$owner
+[[20]]$owner$login
+[1] "jtleek"
+
+[[20]]$owner$id
+[1] 1571674
+
+[[20]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[20]]$owner$gravatar_id
+[1] ""
+
+[[20]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[20]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[20]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[20]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[20]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[20]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[20]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[20]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[20]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[20]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[20]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[20]]$owner$type
+[1] "User"
+
+[[20]]$owner$site_admin
+[1] FALSE
+
+
+[[20]]$private
+[1] FALSE
+
+[[20]]$html_url
+[1] "https://github.com/jtleek/graduate"
+
+[[20]]$description
+[1] ""
+
+[[20]]$fork
+[1] FALSE
+
+[[20]]$url
+[1] "https://api.github.com/repos/jtleek/graduate"
+
+[[20]]$forks_url
+[1] "https://api.github.com/repos/jtleek/graduate/forks"
+
+[[20]]$keys_url
+[1] "https://api.github.com/repos/jtleek/graduate/keys{/key_id}"
+
+[[20]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/graduate/collaborators{/collaborator}"
+
+[[20]]$teams_url
+[1] "https://api.github.com/repos/jtleek/graduate/teams"
+
+[[20]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/graduate/hooks"
+
+[[20]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/graduate/issues/events{/number}"
+
+[[20]]$events_url
+[1] "https://api.github.com/repos/jtleek/graduate/events"
+
+[[20]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/graduate/assignees{/user}"
+
+[[20]]$branches_url
+[1] "https://api.github.com/repos/jtleek/graduate/branches{/branch}"
+
+[[20]]$tags_url
+[1] "https://api.github.com/repos/jtleek/graduate/tags"
+
+[[20]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/graduate/git/blobs{/sha}"
+
+[[20]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/graduate/git/tags{/sha}"
+
+[[20]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/graduate/git/refs{/sha}"
+
+[[20]]$trees_url
+[1] "https://api.github.com/repos/jtleek/graduate/git/trees{/sha}"
+
+[[20]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/graduate/statuses/{sha}"
+
+[[20]]$languages_url
+[1] "https://api.github.com/repos/jtleek/graduate/languages"
+
+[[20]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/graduate/stargazers"
+
+[[20]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/graduate/contributors"
+
+[[20]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/graduate/subscribers"
+
+[[20]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/graduate/subscription"
+
+[[20]]$commits_url
+[1] "https://api.github.com/repos/jtleek/graduate/commits{/sha}"
+
+[[20]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/graduate/git/commits{/sha}"
+
+[[20]]$comments_url
+[1] "https://api.github.com/repos/jtleek/graduate/comments{/number}"
+
+[[20]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/graduate/issues/comments{/number}"
+
+[[20]]$contents_url
+[1] "https://api.github.com/repos/jtleek/graduate/contents/{+path}"
+
+[[20]]$compare_url
+[1] "https://api.github.com/repos/jtleek/graduate/compare/{base}...{head}"
+
+[[20]]$merges_url
+[1] "https://api.github.com/repos/jtleek/graduate/merges"
+
+[[20]]$archive_url
+[1] "https://api.github.com/repos/jtleek/graduate/{archive_format}{/ref}"
+
+[[20]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/graduate/downloads"
+
+[[20]]$issues_url
+[1] "https://api.github.com/repos/jtleek/graduate/issues{/number}"
+
+[[20]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/graduate/pulls{/number}"
+
+[[20]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/graduate/milestones{/number}"
+
+[[20]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/graduate/notifications{?since,all,participating}"
+
+[[20]]$labels_url
+[1] "https://api.github.com/repos/jtleek/graduate/labels{/name}"
+
+[[20]]$releases_url
+[1] "https://api.github.com/repos/jtleek/graduate/releases{/id}"
+
+[[20]]$created_at
+[1] "2012-11-07T16:43:18Z"
+
+[[20]]$updated_at
+[1] "2014-06-05T17:58:39Z"
+
+[[20]]$pushed_at
+[1] "2012-11-07T05:43:21Z"
+
+[[20]]$git_url
+[1] "git://github.com/jtleek/graduate.git"
+
+[[20]]$ssh_url
+[1] "git@github.com:jtleek/graduate.git"
+
+[[20]]$clone_url
+[1] "https://github.com/jtleek/graduate.git"
+
+[[20]]$svn_url
+[1] "https://github.com/jtleek/graduate"
+
+[[20]]$homepage
+NULL
+
+[[20]]$size
+[1] 1199
+
+[[20]]$stargazers_count
+[1] 1
+
+[[20]]$watchers_count
+[1] 1
+
+[[20]]$language
+NULL
+
+[[20]]$has_issues
+[1] FALSE
+
+[[20]]$has_downloads
+[1] TRUE
+
+[[20]]$has_wiki
+[1] TRUE
+
+[[20]]$has_pages
+[1] FALSE
+
+[[20]]$forks_count
+[1] 3
+
+[[20]]$mirror_url
+NULL
+
+[[20]]$open_issues_count
+[1] 0
+
+[[20]]$forks
+[1] 3
+
+[[20]]$open_issues
+[1] 0
+
+[[20]]$watchers
+[1] 1
+
+[[20]]$default_branch
+[1] "master"
+
+[[20]]$permissions
+[[20]]$permissions$admin
+[1] FALSE
+
+[[20]]$permissions$push
+[1] FALSE
+
+[[20]]$permissions$pull
+[1] TRUE
+
+
+
+[[21]]
+[[21]]$id
+[1] 6661008
+
+[[21]]$name
+[1] "healthvis"
+
+[[21]]$full_name
+[1] "jtleek/healthvis"
+
+[[21]]$owner
+[[21]]$owner$login
+[1] "jtleek"
+
+[[21]]$owner$id
+[1] 1571674
+
+[[21]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[21]]$owner$gravatar_id
+[1] ""
+
+[[21]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[21]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[21]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[21]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[21]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[21]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[21]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[21]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[21]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[21]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[21]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[21]]$owner$type
+[1] "User"
+
+[[21]]$owner$site_admin
+[1] FALSE
+
+
+[[21]]$private
+[1] FALSE
+
+[[21]]$html_url
+[1] "https://github.com/jtleek/healthvis"
+
+[[21]]$description
+[1] "An Interactive Health Visualization Package"
+
+[[21]]$fork
+[1] FALSE
+
+[[21]]$url
+[1] "https://api.github.com/repos/jtleek/healthvis"
+
+[[21]]$forks_url
+[1] "https://api.github.com/repos/jtleek/healthvis/forks"
+
+[[21]]$keys_url
+[1] "https://api.github.com/repos/jtleek/healthvis/keys{/key_id}"
+
+[[21]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/healthvis/collaborators{/collaborator}"
+
+[[21]]$teams_url
+[1] "https://api.github.com/repos/jtleek/healthvis/teams"
+
+[[21]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/healthvis/hooks"
+
+[[21]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/healthvis/issues/events{/number}"
+
+[[21]]$events_url
+[1] "https://api.github.com/repos/jtleek/healthvis/events"
+
+[[21]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/healthvis/assignees{/user}"
+
+[[21]]$branches_url
+[1] "https://api.github.com/repos/jtleek/healthvis/branches{/branch}"
+
+[[21]]$tags_url
+[1] "https://api.github.com/repos/jtleek/healthvis/tags"
+
+[[21]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/healthvis/git/blobs{/sha}"
+
+[[21]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/healthvis/git/tags{/sha}"
+
+[[21]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/healthvis/git/refs{/sha}"
+
+[[21]]$trees_url
+[1] "https://api.github.com/repos/jtleek/healthvis/git/trees{/sha}"
+
+[[21]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/healthvis/statuses/{sha}"
+
+[[21]]$languages_url
+[1] "https://api.github.com/repos/jtleek/healthvis/languages"
+
+[[21]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/healthvis/stargazers"
+
+[[21]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/healthvis/contributors"
+
+[[21]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/healthvis/subscribers"
+
+[[21]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/healthvis/subscription"
+
+[[21]]$commits_url
+[1] "https://api.github.com/repos/jtleek/healthvis/commits{/sha}"
+
+[[21]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/healthvis/git/commits{/sha}"
+
+[[21]]$comments_url
+[1] "https://api.github.com/repos/jtleek/healthvis/comments{/number}"
+
+[[21]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/healthvis/issues/comments{/number}"
+
+[[21]]$contents_url
+[1] "https://api.github.com/repos/jtleek/healthvis/contents/{+path}"
+
+[[21]]$compare_url
+[1] "https://api.github.com/repos/jtleek/healthvis/compare/{base}...{head}"
+
+[[21]]$merges_url
+[1] "https://api.github.com/repos/jtleek/healthvis/merges"
+
+[[21]]$archive_url
+[1] "https://api.github.com/repos/jtleek/healthvis/{archive_format}{/ref}"
+
+[[21]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/healthvis/downloads"
+
+[[21]]$issues_url
+[1] "https://api.github.com/repos/jtleek/healthvis/issues{/number}"
+
+[[21]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/healthvis/pulls{/number}"
+
+[[21]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/healthvis/milestones{/number}"
+
+[[21]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/healthvis/notifications{?since,all,participating}"
+
+[[21]]$labels_url
+[1] "https://api.github.com/repos/jtleek/healthvis/labels{/name}"
+
+[[21]]$releases_url
+[1] "https://api.github.com/repos/jtleek/healthvis/releases{/id}"
+
+[[21]]$created_at
+[1] "2012-11-12T21:35:30Z"
+
+[[21]]$updated_at
+[1] "2015-09-15T03:54:13Z"
+
+[[21]]$pushed_at
+[1] "2013-01-12T19:58:55Z"
+
+[[21]]$git_url
+[1] "git://github.com/jtleek/healthvis.git"
+
+[[21]]$ssh_url
+[1] "git@github.com:jtleek/healthvis.git"
+
+[[21]]$clone_url
+[1] "https://github.com/jtleek/healthvis.git"
+
+[[21]]$svn_url
+[1] "https://github.com/jtleek/healthvis"
+
+[[21]]$homepage
+NULL
+
+[[21]]$size
+[1] 1067
+
+[[21]]$stargazers_count
+[1] 9
+
+[[21]]$watchers_count
+[1] 9
+
+[[21]]$language
+[1] "Python"
+
+[[21]]$has_issues
+[1] TRUE
+
+[[21]]$has_downloads
+[1] TRUE
+
+[[21]]$has_wiki
+[1] TRUE
+
+[[21]]$has_pages
+[1] FALSE
+
+[[21]]$forks_count
+[1] 5
+
+[[21]]$mirror_url
+NULL
+
+[[21]]$open_issues_count
+[1] 0
+
+[[21]]$forks
+[1] 5
+
+[[21]]$open_issues
+[1] 0
+
+[[21]]$watchers
+[1] 9
+
+[[21]]$default_branch
+[1] "master"
+
+[[21]]$permissions
+[[21]]$permissions$admin
+[1] FALSE
+
+[[21]]$permissions$push
+[1] FALSE
+
+[[21]]$permissions$pull
+[1] TRUE
+
+
+
+[[22]]
+[[22]]$id
+[1] 19133476
+
+[[22]]$name
+[1] "hyde"
+
+[[22]]$full_name
+[1] "jtleek/hyde"
+
+[[22]]$owner
+[[22]]$owner$login
+[1] "jtleek"
+
+[[22]]$owner$id
+[1] 1571674
+
+[[22]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[22]]$owner$gravatar_id
+[1] ""
+
+[[22]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[22]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[22]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[22]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[22]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[22]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[22]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[22]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[22]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[22]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[22]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[22]]$owner$type
+[1] "User"
+
+[[22]]$owner$site_admin
+[1] FALSE
+
+
+[[22]]$private
+[1] FALSE
+
+[[22]]$html_url
+[1] "https://github.com/jtleek/hyde"
+
+[[22]]$description
+[1] "A brazen two-column theme for Jekyll."
+
+[[22]]$fork
+[1] TRUE
+
+[[22]]$url
+[1] "https://api.github.com/repos/jtleek/hyde"
+
+[[22]]$forks_url
+[1] "https://api.github.com/repos/jtleek/hyde/forks"
+
+[[22]]$keys_url
+[1] "https://api.github.com/repos/jtleek/hyde/keys{/key_id}"
+
+[[22]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/hyde/collaborators{/collaborator}"
+
+[[22]]$teams_url
+[1] "https://api.github.com/repos/jtleek/hyde/teams"
+
+[[22]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/hyde/hooks"
+
+[[22]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/hyde/issues/events{/number}"
+
+[[22]]$events_url
+[1] "https://api.github.com/repos/jtleek/hyde/events"
+
+[[22]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/hyde/assignees{/user}"
+
+[[22]]$branches_url
+[1] "https://api.github.com/repos/jtleek/hyde/branches{/branch}"
+
+[[22]]$tags_url
+[1] "https://api.github.com/repos/jtleek/hyde/tags"
+
+[[22]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/hyde/git/blobs{/sha}"
+
+[[22]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/hyde/git/tags{/sha}"
+
+[[22]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/hyde/git/refs{/sha}"
+
+[[22]]$trees_url
+[1] "https://api.github.com/repos/jtleek/hyde/git/trees{/sha}"
+
+[[22]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/hyde/statuses/{sha}"
+
+[[22]]$languages_url
+[1] "https://api.github.com/repos/jtleek/hyde/languages"
+
+[[22]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/hyde/stargazers"
+
+[[22]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/hyde/contributors"
+
+[[22]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/hyde/subscribers"
+
+[[22]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/hyde/subscription"
+
+[[22]]$commits_url
+[1] "https://api.github.com/repos/jtleek/hyde/commits{/sha}"
+
+[[22]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/hyde/git/commits{/sha}"
+
+[[22]]$comments_url
+[1] "https://api.github.com/repos/jtleek/hyde/comments{/number}"
+
+[[22]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/hyde/issues/comments{/number}"
+
+[[22]]$contents_url
+[1] "https://api.github.com/repos/jtleek/hyde/contents/{+path}"
+
+[[22]]$compare_url
+[1] "https://api.github.com/repos/jtleek/hyde/compare/{base}...{head}"
+
+[[22]]$merges_url
+[1] "https://api.github.com/repos/jtleek/hyde/merges"
+
+[[22]]$archive_url
+[1] "https://api.github.com/repos/jtleek/hyde/{archive_format}{/ref}"
+
+[[22]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/hyde/downloads"
+
+[[22]]$issues_url
+[1] "https://api.github.com/repos/jtleek/hyde/issues{/number}"
+
+[[22]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/hyde/pulls{/number}"
+
+[[22]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/hyde/milestones{/number}"
+
+[[22]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/hyde/notifications{?since,all,participating}"
+
+[[22]]$labels_url
+[1] "https://api.github.com/repos/jtleek/hyde/labels{/name}"
+
+[[22]]$releases_url
+[1] "https://api.github.com/repos/jtleek/hyde/releases{/id}"
+
+[[22]]$created_at
+[1] "2014-04-25T03:59:31Z"
+
+[[22]]$updated_at
+[1] "2014-04-25T03:59:31Z"
+
+[[22]]$pushed_at
+[1] "2014-03-16T03:23:52Z"
+
+[[22]]$git_url
+[1] "git://github.com/jtleek/hyde.git"
+
+[[22]]$ssh_url
+[1] "git@github.com:jtleek/hyde.git"
+
+[[22]]$clone_url
+[1] "https://github.com/jtleek/hyde.git"
+
+[[22]]$svn_url
+[1] "https://github.com/jtleek/hyde"
+
+[[22]]$homepage
+[1] "http://hyde.getpoole.com"
+
+[[22]]$size
+[1] 447
+
+[[22]]$stargazers_count
+[1] 0
+
+[[22]]$watchers_count
+[1] 0
+
+[[22]]$language
+[1] "CSS"
+
+[[22]]$has_issues
+[1] FALSE
+
+[[22]]$has_downloads
+[1] TRUE
+
+[[22]]$has_wiki
+[1] FALSE
+
+[[22]]$has_pages
+[1] FALSE
+
+[[22]]$forks_count
+[1] 1
+
+[[22]]$mirror_url
+NULL
+
+[[22]]$open_issues_count
+[1] 0
+
+[[22]]$forks
+[1] 1
+
+[[22]]$open_issues
+[1] 0
+
+[[22]]$watchers
+[1] 0
+
+[[22]]$default_branch
+[1] "master"
+
+[[22]]$permissions
+[[22]]$permissions$admin
+[1] FALSE
+
+[[22]]$permissions$push
+[1] FALSE
+
+[[22]]$permissions$pull
+[1] TRUE
+
+
+
+[[23]]
+[[23]]$id
+[1] 16584923
+
+[[23]]$name
+[1] "inclassfeb62014"
+
+[[23]]$full_name
+[1] "jtleek/inclassfeb62014"
+
+[[23]]$owner
+[[23]]$owner$login
+[1] "jtleek"
+
+[[23]]$owner$id
+[1] 1571674
+
+[[23]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[23]]$owner$gravatar_id
+[1] ""
+
+[[23]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[23]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[23]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[23]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[23]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[23]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[23]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[23]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[23]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[23]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[23]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[23]]$owner$type
+[1] "User"
+
+[[23]]$owner$site_admin
+[1] FALSE
+
+
+[[23]]$private
+[1] FALSE
+
+[[23]]$html_url
+[1] "https://github.com/jtleek/inclassfeb62014"
+
+[[23]]$description
+[1] "In class project repo"
+
+[[23]]$fork
+[1] FALSE
+
+[[23]]$url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014"
+
+[[23]]$forks_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/forks"
+
+[[23]]$keys_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/keys{/key_id}"
+
+[[23]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/collaborators{/collaborator}"
+
+[[23]]$teams_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/teams"
+
+[[23]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/hooks"
+
+[[23]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/issues/events{/number}"
+
+[[23]]$events_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/events"
+
+[[23]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/assignees{/user}"
+
+[[23]]$branches_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/branches{/branch}"
+
+[[23]]$tags_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/tags"
+
+[[23]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/git/blobs{/sha}"
+
+[[23]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/git/tags{/sha}"
+
+[[23]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/git/refs{/sha}"
+
+[[23]]$trees_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/git/trees{/sha}"
+
+[[23]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/statuses/{sha}"
+
+[[23]]$languages_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/languages"
+
+[[23]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/stargazers"
+
+[[23]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/contributors"
+
+[[23]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/subscribers"
+
+[[23]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/subscription"
+
+[[23]]$commits_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/commits{/sha}"
+
+[[23]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/git/commits{/sha}"
+
+[[23]]$comments_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/comments{/number}"
+
+[[23]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/issues/comments{/number}"
+
+[[23]]$contents_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/contents/{+path}"
+
+[[23]]$compare_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/compare/{base}...{head}"
+
+[[23]]$merges_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/merges"
+
+[[23]]$archive_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/{archive_format}{/ref}"
+
+[[23]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/downloads"
+
+[[23]]$issues_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/issues{/number}"
+
+[[23]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/pulls{/number}"
+
+[[23]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/milestones{/number}"
+
+[[23]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/notifications{?since,all,participating}"
+
+[[23]]$labels_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/labels{/name}"
+
+[[23]]$releases_url
+[1] "https://api.github.com/repos/jtleek/inclassfeb62014/releases{/id}"
+
+[[23]]$created_at
+[1] "2014-02-06T16:13:11Z"
+
+[[23]]$updated_at
+[1] "2014-06-05T17:59:46Z"
+
+[[23]]$pushed_at
+[1] "2014-02-18T10:34:32Z"
+
+[[23]]$git_url
+[1] "git://github.com/jtleek/inclassfeb62014.git"
+
+[[23]]$ssh_url
+[1] "git@github.com:jtleek/inclassfeb62014.git"
+
+[[23]]$clone_url
+[1] "https://github.com/jtleek/inclassfeb62014.git"
+
+[[23]]$svn_url
+[1] "https://github.com/jtleek/inclassfeb62014"
+
+[[23]]$homepage
+NULL
+
+[[23]]$size
+[1] 6248
+
+[[23]]$stargazers_count
+[1] 1
+
+[[23]]$watchers_count
+[1] 1
+
+[[23]]$language
+[1] "Shell"
+
+[[23]]$has_issues
+[1] TRUE
+
+[[23]]$has_downloads
+[1] TRUE
+
+[[23]]$has_wiki
+[1] TRUE
+
+[[23]]$has_pages
+[1] FALSE
+
+[[23]]$forks_count
+[1] 5
+
+[[23]]$mirror_url
+NULL
+
+[[23]]$open_issues_count
+[1] 0
+
+[[23]]$forks
+[1] 5
+
+[[23]]$open_issues
+[1] 0
+
+[[23]]$watchers
+[1] 1
+
+[[23]]$default_branch
+[1] "master"
+
+[[23]]$permissions
+[[23]]$permissions$admin
+[1] FALSE
+
+[[23]]$permissions$push
+[1] FALSE
+
+[[23]]$permissions$pull
+[1] TRUE
+
+
+
+[[24]]
+[[24]]$id
+[1] 7745123
+
+[[24]]$name
+[1] "jhsph753"
+
+[[24]]$full_name
+[1] "jtleek/jhsph753"
+
+[[24]]$owner
+[[24]]$owner$login
+[1] "jtleek"
+
+[[24]]$owner$id
+[1] 1571674
+
+[[24]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[24]]$owner$gravatar_id
+[1] ""
+
+[[24]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[24]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[24]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[24]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[24]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[24]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[24]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[24]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[24]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[24]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[24]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[24]]$owner$type
+[1] "User"
+
+[[24]]$owner$site_admin
+[1] FALSE
+
+
+[[24]]$private
+[1] FALSE
+
+[[24]]$html_url
+[1] "https://github.com/jtleek/jhsph753"
+
+[[24]]$description
+[1] "Web page for JHSPH Advanced Methods/Applied Statistics"
+
+[[24]]$fork
+[1] FALSE
+
+[[24]]$url
+[1] "https://api.github.com/repos/jtleek/jhsph753"
+
+[[24]]$forks_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/forks"
+
+[[24]]$keys_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/keys{/key_id}"
+
+[[24]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/collaborators{/collaborator}"
+
+[[24]]$teams_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/teams"
+
+[[24]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/hooks"
+
+[[24]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/issues/events{/number}"
+
+[[24]]$events_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/events"
+
+[[24]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/assignees{/user}"
+
+[[24]]$branches_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/branches{/branch}"
+
+[[24]]$tags_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/tags"
+
+[[24]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/git/blobs{/sha}"
+
+[[24]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/git/tags{/sha}"
+
+[[24]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/git/refs{/sha}"
+
+[[24]]$trees_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/git/trees{/sha}"
+
+[[24]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/statuses/{sha}"
+
+[[24]]$languages_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/languages"
+
+[[24]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/stargazers"
+
+[[24]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/contributors"
+
+[[24]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/subscribers"
+
+[[24]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/subscription"
+
+[[24]]$commits_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/commits{/sha}"
+
+[[24]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/git/commits{/sha}"
+
+[[24]]$comments_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/comments{/number}"
+
+[[24]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/issues/comments{/number}"
+
+[[24]]$contents_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/contents/{+path}"
+
+[[24]]$compare_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/compare/{base}...{head}"
+
+[[24]]$merges_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/merges"
+
+[[24]]$archive_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/{archive_format}{/ref}"
+
+[[24]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/downloads"
+
+[[24]]$issues_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/issues{/number}"
+
+[[24]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/pulls{/number}"
+
+[[24]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/milestones{/number}"
+
+[[24]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/notifications{?since,all,participating}"
+
+[[24]]$labels_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/labels{/name}"
+
+[[24]]$releases_url
+[1] "https://api.github.com/repos/jtleek/jhsph753/releases{/id}"
+
+[[24]]$created_at
+[1] "2013-01-22T03:06:39Z"
+
+[[24]]$updated_at
+[1] "2013-10-04T11:29:18Z"
+
+[[24]]$pushed_at
+[1] "2013-05-16T11:43:34Z"
+
+[[24]]$git_url
+[1] "git://github.com/jtleek/jhsph753.git"
+
+[[24]]$ssh_url
+[1] "git@github.com:jtleek/jhsph753.git"
+
+[[24]]$clone_url
+[1] "https://github.com/jtleek/jhsph753.git"
+
+[[24]]$svn_url
+[1] "https://github.com/jtleek/jhsph753"
+
+[[24]]$homepage
+NULL
+
+[[24]]$size
+[1] 27878
+
+[[24]]$stargazers_count
+[1] 1
+
+[[24]]$watchers_count
+[1] 1
+
+[[24]]$language
+[1] "JavaScript"
+
+[[24]]$has_issues
+[1] TRUE
+
+[[24]]$has_downloads
+[1] TRUE
+
+[[24]]$has_wiki
+[1] TRUE
+
+[[24]]$has_pages
+[1] TRUE
+
+[[24]]$forks_count
+[1] 1
+
+[[24]]$mirror_url
+NULL
+
+[[24]]$open_issues_count
+[1] 0
+
+[[24]]$forks
+[1] 1
+
+[[24]]$open_issues
+[1] 0
+
+[[24]]$watchers
+[1] 1
+
+[[24]]$default_branch
+[1] "master"
+
+[[24]]$permissions
+[[24]]$permissions$admin
+[1] FALSE
+
+[[24]]$permissions$push
+[1] FALSE
+
+[[24]]$permissions$pull
+[1] TRUE
+
+
+
+[[25]]
+[[25]]$id
+[1] 15639612
+
+[[25]]$name
+[1] "jhsph753and4"
+
+[[25]]$full_name
+[1] "jtleek/jhsph753and4"
+
+[[25]]$owner
+[[25]]$owner$login
+[1] "jtleek"
+
+[[25]]$owner$id
+[1] 1571674
+
+[[25]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[25]]$owner$gravatar_id
+[1] ""
+
+[[25]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[25]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[25]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[25]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[25]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[25]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[25]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[25]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[25]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[25]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[25]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[25]]$owner$type
+[1] "User"
+
+[[25]]$owner$site_admin
+[1] FALSE
+
+
+[[25]]$private
+[1] FALSE
+
+[[25]]$html_url
+[1] "https://github.com/jtleek/jhsph753and4"
+
+[[25]]$description
+[1] "Class github repository for 751 and 2; doctoral classes in the Department of Biostatistics at Johns Hopkins"
+
+[[25]]$fork
+[1] FALSE
+
+[[25]]$url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4"
+
+[[25]]$forks_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/forks"
+
+[[25]]$keys_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/keys{/key_id}"
+
+[[25]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/collaborators{/collaborator}"
+
+[[25]]$teams_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/teams"
+
+[[25]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/hooks"
+
+[[25]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/issues/events{/number}"
+
+[[25]]$events_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/events"
+
+[[25]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/assignees{/user}"
+
+[[25]]$branches_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/branches{/branch}"
+
+[[25]]$tags_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/tags"
+
+[[25]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/git/blobs{/sha}"
+
+[[25]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/git/tags{/sha}"
+
+[[25]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/git/refs{/sha}"
+
+[[25]]$trees_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/git/trees{/sha}"
+
+[[25]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/statuses/{sha}"
+
+[[25]]$languages_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/languages"
+
+[[25]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/stargazers"
+
+[[25]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/contributors"
+
+[[25]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/subscribers"
+
+[[25]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/subscription"
+
+[[25]]$commits_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/commits{/sha}"
+
+[[25]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/git/commits{/sha}"
+
+[[25]]$comments_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/comments{/number}"
+
+[[25]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/issues/comments{/number}"
+
+[[25]]$contents_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/contents/{+path}"
+
+[[25]]$compare_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/compare/{base}...{head}"
+
+[[25]]$merges_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/merges"
+
+[[25]]$archive_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/{archive_format}{/ref}"
+
+[[25]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/downloads"
+
+[[25]]$issues_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/issues{/number}"
+
+[[25]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/pulls{/number}"
+
+[[25]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/milestones{/number}"
+
+[[25]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/notifications{?since,all,participating}"
+
+[[25]]$labels_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/labels{/name}"
+
+[[25]]$releases_url
+[1] "https://api.github.com/repos/jtleek/jhsph753and4/releases{/id}"
+
+[[25]]$created_at
+[1] "2014-01-04T21:06:44Z"
+
+[[25]]$updated_at
+[1] "2015-11-15T05:13:25Z"
+
+[[25]]$pushed_at
+[1] "2014-05-15T14:22:41Z"
+
+[[25]]$git_url
+[1] "git://github.com/jtleek/jhsph753and4.git"
+
+[[25]]$ssh_url
+[1] "git@github.com:jtleek/jhsph753and4.git"
+
+[[25]]$clone_url
+[1] "https://github.com/jtleek/jhsph753and4.git"
+
+[[25]]$svn_url
+[1] "https://github.com/jtleek/jhsph753and4"
+
+[[25]]$homepage
+NULL
+
+[[25]]$size
+[1] 185443
+
+[[25]]$stargazers_count
+[1] 5
+
+[[25]]$watchers_count
+[1] 5
+
+[[25]]$language
+[1] "JavaScript"
+
+[[25]]$has_issues
+[1] TRUE
+
+[[25]]$has_downloads
+[1] TRUE
+
+[[25]]$has_wiki
+[1] TRUE
+
+[[25]]$has_pages
+[1] TRUE
+
+[[25]]$forks_count
+[1] 22
+
+[[25]]$mirror_url
+NULL
+
+[[25]]$open_issues_count
+[1] 0
+
+[[25]]$forks
+[1] 22
+
+[[25]]$open_issues
+[1] 0
+
+[[25]]$watchers
+[1] 5
+
+[[25]]$default_branch
+[1] "master"
+
+[[25]]$permissions
+[[25]]$permissions$admin
+[1] FALSE
+
+[[25]]$permissions$push
+[1] FALSE
+
+[[25]]$permissions$pull
+[1] TRUE
+
+
+
+[[26]]
+[[26]]$id
+[1] 42834789
+
+[[26]]$name
+[1] "jhudash"
+
+[[26]]$full_name
+[1] "jtleek/jhudash"
+
+[[26]]$owner
+[[26]]$owner$login
+[1] "jtleek"
+
+[[26]]$owner$id
+[1] 1571674
+
+[[26]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[26]]$owner$gravatar_id
+[1] ""
+
+[[26]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[26]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[26]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[26]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[26]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[26]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[26]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[26]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[26]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[26]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[26]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[26]]$owner$type
+[1] "User"
+
+[[26]]$owner$site_admin
+[1] FALSE
+
+
+[[26]]$private
+[1] FALSE
+
+[[26]]$html_url
+[1] "https://github.com/jtleek/jhudash"
+
+[[26]]$description
+[1] "A repository for all things DaSH"
+
+[[26]]$fork
+[1] TRUE
+
+[[26]]$url
+[1] "https://api.github.com/repos/jtleek/jhudash"
+
+[[26]]$forks_url
+[1] "https://api.github.com/repos/jtleek/jhudash/forks"
+
+[[26]]$keys_url
+[1] "https://api.github.com/repos/jtleek/jhudash/keys{/key_id}"
+
+[[26]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/jhudash/collaborators{/collaborator}"
+
+[[26]]$teams_url
+[1] "https://api.github.com/repos/jtleek/jhudash/teams"
+
+[[26]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/jhudash/hooks"
+
+[[26]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/jhudash/issues/events{/number}"
+
+[[26]]$events_url
+[1] "https://api.github.com/repos/jtleek/jhudash/events"
+
+[[26]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/jhudash/assignees{/user}"
+
+[[26]]$branches_url
+[1] "https://api.github.com/repos/jtleek/jhudash/branches{/branch}"
+
+[[26]]$tags_url
+[1] "https://api.github.com/repos/jtleek/jhudash/tags"
+
+[[26]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/jhudash/git/blobs{/sha}"
+
+[[26]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/jhudash/git/tags{/sha}"
+
+[[26]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/jhudash/git/refs{/sha}"
+
+[[26]]$trees_url
+[1] "https://api.github.com/repos/jtleek/jhudash/git/trees{/sha}"
+
+[[26]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/jhudash/statuses/{sha}"
+
+[[26]]$languages_url
+[1] "https://api.github.com/repos/jtleek/jhudash/languages"
+
+[[26]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/jhudash/stargazers"
+
+[[26]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/jhudash/contributors"
+
+[[26]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/jhudash/subscribers"
+
+[[26]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/jhudash/subscription"
+
+[[26]]$commits_url
+[1] "https://api.github.com/repos/jtleek/jhudash/commits{/sha}"
+
+[[26]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/jhudash/git/commits{/sha}"
+
+[[26]]$comments_url
+[1] "https://api.github.com/repos/jtleek/jhudash/comments{/number}"
+
+[[26]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/jhudash/issues/comments{/number}"
+
+[[26]]$contents_url
+[1] "https://api.github.com/repos/jtleek/jhudash/contents/{+path}"
+
+[[26]]$compare_url
+[1] "https://api.github.com/repos/jtleek/jhudash/compare/{base}...{head}"
+
+[[26]]$merges_url
+[1] "https://api.github.com/repos/jtleek/jhudash/merges"
+
+[[26]]$archive_url
+[1] "https://api.github.com/repos/jtleek/jhudash/{archive_format}{/ref}"
+
+[[26]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/jhudash/downloads"
+
+[[26]]$issues_url
+[1] "https://api.github.com/repos/jtleek/jhudash/issues{/number}"
+
+[[26]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/jhudash/pulls{/number}"
+
+[[26]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/jhudash/milestones{/number}"
+
+[[26]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/jhudash/notifications{?since,all,participating}"
+
+[[26]]$labels_url
+[1] "https://api.github.com/repos/jtleek/jhudash/labels{/name}"
+
+[[26]]$releases_url
+[1] "https://api.github.com/repos/jtleek/jhudash/releases{/id}"
+
+[[26]]$created_at
+[1] "2015-09-21T00:11:42Z"
+
+[[26]]$updated_at
+[1] "2015-09-18T16:45:24Z"
+
+[[26]]$pushed_at
+[1] "2015-09-21T10:35:40Z"
+
+[[26]]$git_url
+[1] "git://github.com/jtleek/jhudash.git"
+
+[[26]]$ssh_url
+[1] "git@github.com:jtleek/jhudash.git"
+
+[[26]]$clone_url
+[1] "https://github.com/jtleek/jhudash.git"
+
+[[26]]$svn_url
+[1] "https://github.com/jtleek/jhudash"
+
+[[26]]$homepage
+NULL
+
+[[26]]$size
+[1] 381
+
+[[26]]$stargazers_count
+[1] 0
+
+[[26]]$watchers_count
+[1] 0
+
+[[26]]$language
+NULL
+
+[[26]]$has_issues
+[1] FALSE
+
+[[26]]$has_downloads
+[1] TRUE
+
+[[26]]$has_wiki
+[1] TRUE
+
+[[26]]$has_pages
+[1] FALSE
+
+[[26]]$forks_count
+[1] 0
+
+[[26]]$mirror_url
+NULL
+
+[[26]]$open_issues_count
+[1] 0
+
+[[26]]$forks
+[1] 0
+
+[[26]]$open_issues
+[1] 0
+
+[[26]]$watchers
+[1] 0
+
+[[26]]$default_branch
+[1] "master"
+
+[[26]]$permissions
+[[26]]$permissions$admin
+[1] FALSE
+
+[[26]]$permissions$push
+[1] FALSE
+
+[[26]]$permissions$pull
+[1] TRUE
+
+
+
+[[27]]
+[[27]]$id
+[1] 42873969
+
+[[27]]$name
+[1] "jhudash-refugee"
+
+[[27]]$full_name
+[1] "jtleek/jhudash-refugee"
+
+[[27]]$owner
+[[27]]$owner$login
+[1] "jtleek"
+
+[[27]]$owner$id
+[1] 1571674
+
+[[27]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[27]]$owner$gravatar_id
+[1] ""
+
+[[27]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[27]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[27]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[27]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[27]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[27]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[27]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[27]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[27]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[27]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[27]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[27]]$owner$type
+[1] "User"
+
+[[27]]$owner$site_admin
+[1] FALSE
+
+
+[[27]]$private
+[1] FALSE
+
+[[27]]$html_url
+[1] "https://github.com/jtleek/jhudash-refugee"
+
+[[27]]$description
+[1] "Code to collect data for the #jhudash refugee project"
+
+[[27]]$fork
+[1] FALSE
+
+[[27]]$url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee"
+
+[[27]]$forks_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/forks"
+
+[[27]]$keys_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/keys{/key_id}"
+
+[[27]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/collaborators{/collaborator}"
+
+[[27]]$teams_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/teams"
+
+[[27]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/hooks"
+
+[[27]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/issues/events{/number}"
+
+[[27]]$events_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/events"
+
+[[27]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/assignees{/user}"
+
+[[27]]$branches_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/branches{/branch}"
+
+[[27]]$tags_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/tags"
+
+[[27]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/git/blobs{/sha}"
+
+[[27]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/git/tags{/sha}"
+
+[[27]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/git/refs{/sha}"
+
+[[27]]$trees_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/git/trees{/sha}"
+
+[[27]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/statuses/{sha}"
+
+[[27]]$languages_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/languages"
+
+[[27]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/stargazers"
+
+[[27]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/contributors"
+
+[[27]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/subscribers"
+
+[[27]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/subscription"
+
+[[27]]$commits_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/commits{/sha}"
+
+[[27]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/git/commits{/sha}"
+
+[[27]]$comments_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/comments{/number}"
+
+[[27]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/issues/comments{/number}"
+
+[[27]]$contents_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/contents/{+path}"
+
+[[27]]$compare_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/compare/{base}...{head}"
+
+[[27]]$merges_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/merges"
+
+[[27]]$archive_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/{archive_format}{/ref}"
+
+[[27]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/downloads"
+
+[[27]]$issues_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/issues{/number}"
+
+[[27]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/pulls{/number}"
+
+[[27]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/milestones{/number}"
+
+[[27]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/notifications{?since,all,participating}"
+
+[[27]]$labels_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/labels{/name}"
+
+[[27]]$releases_url
+[1] "https://api.github.com/repos/jtleek/jhudash-refugee/releases{/id}"
+
+[[27]]$created_at
+[1] "2015-09-21T15:08:47Z"
+
+[[27]]$updated_at
+[1] "2015-11-09T20:28:13Z"
+
+[[27]]$pushed_at
+[1] "2015-11-09T20:28:11Z"
+
+[[27]]$git_url
+[1] "git://github.com/jtleek/jhudash-refugee.git"
+
+[[27]]$ssh_url
+[1] "git@github.com:jtleek/jhudash-refugee.git"
+
+[[27]]$clone_url
+[1] "https://github.com/jtleek/jhudash-refugee.git"
+
+[[27]]$svn_url
+[1] "https://github.com/jtleek/jhudash-refugee"
+
+[[27]]$homepage
+NULL
+
+[[27]]$size
+[1] 23206
+
+[[27]]$stargazers_count
+[1] 0
+
+[[27]]$watchers_count
+[1] 0
+
+[[27]]$language
+[1] "HTML"
+
+[[27]]$has_issues
+[1] TRUE
+
+[[27]]$has_downloads
+[1] TRUE
+
+[[27]]$has_wiki
+[1] TRUE
+
+[[27]]$has_pages
+[1] FALSE
+
+[[27]]$forks_count
+[1] 2
+
+[[27]]$mirror_url
+NULL
+
+[[27]]$open_issues_count
+[1] 0
+
+[[27]]$forks
+[1] 2
+
+[[27]]$open_issues
+[1] 0
+
+[[27]]$watchers
+[1] 0
+
+[[27]]$default_branch
+[1] "master"
+
+[[27]]$permissions
+[[27]]$permissions$admin
+[1] FALSE
+
+[[27]]$permissions$push
+[1] FALSE
+
+[[27]]$permissions$pull
+[1] TRUE
+
+
+
+[[28]]
+[[28]]$id
+[1] 19133794
+
+[[28]]$name
+[1] "jtleek.github.io"
+
+[[28]]$full_name
+[1] "jtleek/jtleek.github.io"
+
+[[28]]$owner
+[[28]]$owner$login
+[1] "jtleek"
+
+[[28]]$owner$id
+[1] 1571674
+
+[[28]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[28]]$owner$gravatar_id
+[1] ""
+
+[[28]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[28]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[28]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[28]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[28]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[28]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[28]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[28]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[28]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[28]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[28]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[28]]$owner$type
+[1] "User"
+
+[[28]]$owner$site_admin
+[1] FALSE
+
+
+[[28]]$private
+[1] FALSE
+
+[[28]]$html_url
+[1] "https://github.com/jtleek/jtleek.github.io"
+
+[[28]]$description
+[1] "Website"
+
+[[28]]$fork
+[1] FALSE
+
+[[28]]$url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io"
+
+[[28]]$forks_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/forks"
+
+[[28]]$keys_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/keys{/key_id}"
+
+[[28]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/collaborators{/collaborator}"
+
+[[28]]$teams_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/teams"
+
+[[28]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/hooks"
+
+[[28]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/issues/events{/number}"
+
+[[28]]$events_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/events"
+
+[[28]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/assignees{/user}"
+
+[[28]]$branches_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/branches{/branch}"
+
+[[28]]$tags_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/tags"
+
+[[28]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/git/blobs{/sha}"
+
+[[28]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/git/tags{/sha}"
+
+[[28]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/git/refs{/sha}"
+
+[[28]]$trees_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/git/trees{/sha}"
+
+[[28]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/statuses/{sha}"
+
+[[28]]$languages_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/languages"
+
+[[28]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/stargazers"
+
+[[28]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/contributors"
+
+[[28]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/subscribers"
+
+[[28]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/subscription"
+
+[[28]]$commits_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/commits{/sha}"
+
+[[28]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/git/commits{/sha}"
+
+[[28]]$comments_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/comments{/number}"
+
+[[28]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/issues/comments{/number}"
+
+[[28]]$contents_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/contents/{+path}"
+
+[[28]]$compare_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/compare/{base}...{head}"
+
+[[28]]$merges_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/merges"
+
+[[28]]$archive_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/{archive_format}{/ref}"
+
+[[28]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/downloads"
+
+[[28]]$issues_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/issues{/number}"
+
+[[28]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/pulls{/number}"
+
+[[28]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/milestones{/number}"
+
+[[28]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/notifications{?since,all,participating}"
+
+[[28]]$labels_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/labels{/name}"
+
+[[28]]$releases_url
+[1] "https://api.github.com/repos/jtleek/jtleek.github.io/releases{/id}"
+
+[[28]]$created_at
+[1] "2014-04-25T04:14:45Z"
+
+[[28]]$updated_at
+[1] "2016-01-07T11:44:04Z"
+
+[[28]]$pushed_at
+[1] "2015-12-31T21:21:09Z"
+
+[[28]]$git_url
+[1] "git://github.com/jtleek/jtleek.github.io.git"
+
+[[28]]$ssh_url
+[1] "git@github.com:jtleek/jtleek.github.io.git"
+
+[[28]]$clone_url
+[1] "https://github.com/jtleek/jtleek.github.io.git"
+
+[[28]]$svn_url
+[1] "https://github.com/jtleek/jtleek.github.io"
+
+[[28]]$homepage
+NULL
+
+[[28]]$size
+[1] 5522
+
+[[28]]$stargazers_count
+[1] 11
+
+[[28]]$watchers_count
+[1] 11
+
+[[28]]$language
+[1] "HTML"
+
+[[28]]$has_issues
+[1] TRUE
+
+[[28]]$has_downloads
+[1] TRUE
+
+[[28]]$has_wiki
+[1] TRUE
+
+[[28]]$has_pages
+[1] TRUE
+
+[[28]]$forks_count
+[1] 41
+
+[[28]]$mirror_url
+NULL
+
+[[28]]$open_issues_count
+[1] 0
+
+[[28]]$forks
+[1] 41
+
+[[28]]$open_issues
+[1] 0
+
+[[28]]$watchers
+[1] 11
+
+[[28]]$default_branch
+[1] "master"
+
+[[28]]$permissions
+[[28]]$permissions$admin
+[1] FALSE
+
+[[28]]$permissions$push
+[1] FALSE
+
+[[28]]$permissions$pull
+[1] TRUE
+
+
+
+[[29]]
+[[29]]$id
+[1] 36437212
+
+[[29]]$name
+[1] "langmead-lab"
+
+[[29]]$full_name
+[1] "jtleek/langmead-lab"
+
+[[29]]$owner
+[[29]]$owner$login
+[1] "jtleek"
+
+[[29]]$owner$id
+[1] 1571674
+
+[[29]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[29]]$owner$gravatar_id
+[1] ""
+
+[[29]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[29]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[29]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[29]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[29]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[29]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[29]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[29]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[29]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[29]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[29]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[29]]$owner$type
+[1] "User"
+
+[[29]]$owner$site_admin
+[1] FALSE
+
+
+[[29]]$private
+[1] FALSE
+
+[[29]]$html_url
+[1] "https://github.com/jtleek/langmead-lab"
+
+[[29]]$description
+[1] "Publicly-visible Langmead Lab resources"
+
+[[29]]$fork
+[1] TRUE
+
+[[29]]$url
+[1] "https://api.github.com/repos/jtleek/langmead-lab"
+
+[[29]]$forks_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/forks"
+
+[[29]]$keys_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/keys{/key_id}"
+
+[[29]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/collaborators{/collaborator}"
+
+[[29]]$teams_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/teams"
+
+[[29]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/hooks"
+
+[[29]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/issues/events{/number}"
+
+[[29]]$events_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/events"
+
+[[29]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/assignees{/user}"
+
+[[29]]$branches_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/branches{/branch}"
+
+[[29]]$tags_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/tags"
+
+[[29]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/git/blobs{/sha}"
+
+[[29]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/git/tags{/sha}"
+
+[[29]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/git/refs{/sha}"
+
+[[29]]$trees_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/git/trees{/sha}"
+
+[[29]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/statuses/{sha}"
+
+[[29]]$languages_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/languages"
+
+[[29]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/stargazers"
+
+[[29]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/contributors"
+
+[[29]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/subscribers"
+
+[[29]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/subscription"
+
+[[29]]$commits_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/commits{/sha}"
+
+[[29]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/git/commits{/sha}"
+
+[[29]]$comments_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/comments{/number}"
+
+[[29]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/issues/comments{/number}"
+
+[[29]]$contents_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/contents/{+path}"
+
+[[29]]$compare_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/compare/{base}...{head}"
+
+[[29]]$merges_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/merges"
+
+[[29]]$archive_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/{archive_format}{/ref}"
+
+[[29]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/downloads"
+
+[[29]]$issues_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/issues{/number}"
+
+[[29]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/pulls{/number}"
+
+[[29]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/milestones{/number}"
+
+[[29]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/notifications{?since,all,participating}"
+
+[[29]]$labels_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/labels{/name}"
+
+[[29]]$releases_url
+[1] "https://api.github.com/repos/jtleek/langmead-lab/releases{/id}"
+
+[[29]]$created_at
+[1] "2015-05-28T12:35:48Z"
+
+[[29]]$updated_at
+[1] "2015-05-28T12:24:25Z"
+
+[[29]]$pushed_at
+[1] "2015-05-28T01:33:53Z"
+
+[[29]]$git_url
+[1] "git://github.com/jtleek/langmead-lab.git"
+
+[[29]]$ssh_url
+[1] "git@github.com:jtleek/langmead-lab.git"
+
+[[29]]$clone_url
+[1] "https://github.com/jtleek/langmead-lab.git"
+
+[[29]]$svn_url
+[1] "https://github.com/jtleek/langmead-lab"
+
+[[29]]$homepage
+NULL
+
+[[29]]$size
+[1] 61
+
+[[29]]$stargazers_count
+[1] 0
+
+[[29]]$watchers_count
+[1] 0
+
+[[29]]$language
+NULL
+
+[[29]]$has_issues
+[1] FALSE
+
+[[29]]$has_downloads
+[1] TRUE
+
+[[29]]$has_wiki
+[1] TRUE
+
+[[29]]$has_pages
+[1] FALSE
+
+[[29]]$forks_count
+[1] 1
+
+[[29]]$mirror_url
+NULL
+
+[[29]]$open_issues_count
+[1] 0
+
+[[29]]$forks
+[1] 1
+
+[[29]]$open_issues
+[1] 0
+
+[[29]]$watchers
+[1] 0
+
+[[29]]$default_branch
+[1] "master"
+
+[[29]]$permissions
+[[29]]$permissions$admin
+[1] FALSE
+
+[[29]]$permissions$push
+[1] FALSE
+
+[[29]]$permissions$pull
+[1] TRUE
+
+
+
+[[30]]
+[[30]]$id
+[1] 17446438
+
+[[30]]$name
+[1] "leah"
+
+[[30]]$full_name
+[1] "jtleek/leah"
+
+[[30]]$owner
+[[30]]$owner$login
+[1] "jtleek"
+
+[[30]]$owner$id
+[1] 1571674
+
+[[30]]$owner$avatar_url
+[1] "https://avatars.githubusercontent.com/u/1571674?v=3"
+
+[[30]]$owner$gravatar_id
+[1] ""
+
+[[30]]$owner$url
+[1] "https://api.github.com/users/jtleek"
+
+[[30]]$owner$html_url
+[1] "https://github.com/jtleek"
+
+[[30]]$owner$followers_url
+[1] "https://api.github.com/users/jtleek/followers"
+
+[[30]]$owner$following_url
+[1] "https://api.github.com/users/jtleek/following{/other_user}"
+
+[[30]]$owner$gists_url
+[1] "https://api.github.com/users/jtleek/gists{/gist_id}"
+
+[[30]]$owner$starred_url
+[1] "https://api.github.com/users/jtleek/starred{/owner}{/repo}"
+
+[[30]]$owner$subscriptions_url
+[1] "https://api.github.com/users/jtleek/subscriptions"
+
+[[30]]$owner$organizations_url
+[1] "https://api.github.com/users/jtleek/orgs"
+
+[[30]]$owner$repos_url
+[1] "https://api.github.com/users/jtleek/repos"
+
+[[30]]$owner$events_url
+[1] "https://api.github.com/users/jtleek/events{/privacy}"
+
+[[30]]$owner$received_events_url
+[1] "https://api.github.com/users/jtleek/received_events"
+
+[[30]]$owner$type
+[1] "User"
+
+[[30]]$owner$site_admin
+[1] FALSE
+
+
+[[30]]$private
+[1] FALSE
+
+[[30]]$html_url
+[1] "https://github.com/jtleek/leah"
+
+[[30]]$description
+[1] "blah de blah"
+
+[[30]]$fork
+[1] FALSE
+
+[[30]]$url
+[1] "https://api.github.com/repos/jtleek/leah"
+
+[[30]]$forks_url
+[1] "https://api.github.com/repos/jtleek/leah/forks"
+
+[[30]]$keys_url
+[1] "https://api.github.com/repos/jtleek/leah/keys{/key_id}"
+
+[[30]]$collaborators_url
+[1] "https://api.github.com/repos/jtleek/leah/collaborators{/collaborator}"
+
+[[30]]$teams_url
+[1] "https://api.github.com/repos/jtleek/leah/teams"
+
+[[30]]$hooks_url
+[1] "https://api.github.com/repos/jtleek/leah/hooks"
+
+[[30]]$issue_events_url
+[1] "https://api.github.com/repos/jtleek/leah/issues/events{/number}"
+
+[[30]]$events_url
+[1] "https://api.github.com/repos/jtleek/leah/events"
+
+[[30]]$assignees_url
+[1] "https://api.github.com/repos/jtleek/leah/assignees{/user}"
+
+[[30]]$branches_url
+[1] "https://api.github.com/repos/jtleek/leah/branches{/branch}"
+
+[[30]]$tags_url
+[1] "https://api.github.com/repos/jtleek/leah/tags"
+
+[[30]]$blobs_url
+[1] "https://api.github.com/repos/jtleek/leah/git/blobs{/sha}"
+
+[[30]]$git_tags_url
+[1] "https://api.github.com/repos/jtleek/leah/git/tags{/sha}"
+
+[[30]]$git_refs_url
+[1] "https://api.github.com/repos/jtleek/leah/git/refs{/sha}"
+
+[[30]]$trees_url
+[1] "https://api.github.com/repos/jtleek/leah/git/trees{/sha}"
+
+[[30]]$statuses_url
+[1] "https://api.github.com/repos/jtleek/leah/statuses/{sha}"
+
+[[30]]$languages_url
+[1] "https://api.github.com/repos/jtleek/leah/languages"
+
+[[30]]$stargazers_url
+[1] "https://api.github.com/repos/jtleek/leah/stargazers"
+
+[[30]]$contributors_url
+[1] "https://api.github.com/repos/jtleek/leah/contributors"
+
+[[30]]$subscribers_url
+[1] "https://api.github.com/repos/jtleek/leah/subscribers"
+
+[[30]]$subscription_url
+[1] "https://api.github.com/repos/jtleek/leah/subscription"
+
+[[30]]$commits_url
+[1] "https://api.github.com/repos/jtleek/leah/commits{/sha}"
+
+[[30]]$git_commits_url
+[1] "https://api.github.com/repos/jtleek/leah/git/commits{/sha}"
+
+[[30]]$comments_url
+[1] "https://api.github.com/repos/jtleek/leah/comments{/number}"
+
+[[30]]$issue_comment_url
+[1] "https://api.github.com/repos/jtleek/leah/issues/comments{/number}"
+
+[[30]]$contents_url
+[1] "https://api.github.com/repos/jtleek/leah/contents/{+path}"
+
+[[30]]$compare_url
+[1] "https://api.github.com/repos/jtleek/leah/compare/{base}...{head}"
+
+[[30]]$merges_url
+[1] "https://api.github.com/repos/jtleek/leah/merges"
+
+[[30]]$archive_url
+[1] "https://api.github.com/repos/jtleek/leah/{archive_format}{/ref}"
+
+[[30]]$downloads_url
+[1] "https://api.github.com/repos/jtleek/leah/downloads"
+
+[[30]]$issues_url
+[1] "https://api.github.com/repos/jtleek/leah/issues{/number}"
+
+[[30]]$pulls_url
+[1] "https://api.github.com/repos/jtleek/leah/pulls{/number}"
+
+[[30]]$milestones_url
+[1] "https://api.github.com/repos/jtleek/leah/milestones{/number}"
+
+[[30]]$notifications_url
+[1] "https://api.github.com/repos/jtleek/leah/notifications{?since,all,participating}"
+
+[[30]]$labels_url
+[1] "https://api.github.com/repos/jtleek/leah/labels{/name}"
+
+[[30]]$releases_url
+[1] "https://api.github.com/repos/jtleek/leah/releases{/id}"
+
+[[30]]$created_at
+[1] "2014-03-05T16:11:46Z"
+
+[[30]]$updated_at
+[1] "2014-03-05T16:18:30Z"
+
+[[30]]$pushed_at
+[1] "2014-03-05T16:18:30Z"
+
+[[30]]$git_url
+[1] "git://github.com/jtleek/leah.git"
+
+[[30]]$ssh_url
+[1] "git@github.com:jtleek/leah.git"
+
+[[30]]$clone_url
+[1] "https://github.com/jtleek/leah.git"
+
+[[30]]$svn_url
+[1] "https://github.com/jtleek/leah"
+
+[[30]]$homepage
+NULL
+
+[[30]]$size
+[1] 136
+
+[[30]]$stargazers_count
+[1] 0
+
+[[30]]$watchers_count
+[1] 0
+
+[[30]]$language
+NULL
+
+[[30]]$has_issues
+[1] TRUE
+
+[[30]]$has_downloads
+[1] TRUE
+
+[[30]]$has_wiki
+[1] TRUE
+
+[[30]]$has_pages
+[1] FALSE
+
+[[30]]$forks_count
+[1] 0
+
+[[30]]$mirror_url
+NULL
+
+[[30]]$open_issues_count
+[1] 0
+
+[[30]]$forks
+[1] 0
+
+[[30]]$open_issues
+[1] 0
+
+[[30]]$watchers
+[1] 0
+
+[[30]]$default_branch
+[1] "master"
+
+[[30]]$permissions
+[[30]]$permissions$admin
+[1] FALSE
+
+[[30]]$permissions$push
+[1] FALSE
+
+[[30]]$permissions$pull
+[1] TRUE
+
+
+
+
+The downloaded binary packages are in
+	/var/folders/9g/d81p1q2n4z5f1j22tk3sw0c40000gn/T//Rtmp9cNkPC/downloaded_packages
+[1] "/Users/behfar/Documents/GitHub/datasciencecoursera/3. Getting and Cleaning Data"
+[1] "/Users/behfar/Documents/GitHub/datasciencecoursera/3. Getting and Cleaning Data"
+[1] 25

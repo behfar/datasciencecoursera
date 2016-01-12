@@ -63,9 +63,54 @@ quantile(affyMis$misMatches)
 
 
 
-## HDF5
+## HDF5 - hdfgroup.org
 
-# fill this in based on the slides ...
+# Used for hierarchically storing large data sets.
+# Groups contain zero or more datasets and metadata.
+# Datasets are multi-dim arrays with metadata.
+
+# R HDF5 package
+source('http://bioconductor.org/biocLite.R')
+biocLite('rhdf5')
+
+library(rhdf5)
+created <- h5createFile('example.h5')
+created <- # should return [1] TRUE
+
+# Create groups
+created <- h5createGroup('example.h5', 'foo')
+created <- h5createGroup('example.h5', 'baa')
+created <- h5createGroup('example.h5', 'foo/foobaa')
+h5ls('example.h5')
+
+# Write to groups
+A <- matrix(1:10, nr=5, nc=2)
+h5write(A, 'example.h5', 'foo/A') # group is /foo, name is A
+B <- array(seq(0.1, 2.0, by=0.1), dim=c(5,2,2))
+attr(B, 'scale') <- 'liter'
+h5write(B, 'example.h5', 'foo/foobaa/B') # group is /foo/foobaa, name is B
+h5ls('example.h5')
+
+# Write a dataset
+df <- data.frame(1L:5L,
+	seq(0,1,length.out=5),
+	c('ab', 'cde', 'fghi', 'a', 's'),
+	stringsAsFactors=FALSE)
+h5write(df, 'example.h5', 'df') # no group (ie at top level '/'), name is df
+h5ls('example.h5')
+
+# Reading data
+readA <- h5read('exmaple.h5', 'foo/A')
+readB <- h5read('exmaple.h5', 'foo/foobaa/B')
+readdf <- h5read('exmaple.h5', 'df')
+readA
+
+# Writing and reading chunks
+h5write(c(12,13,14), 'example.h5', 'foo/A', index=list(1:3, 1)) # write 12,13,14 into rows 1:3 and column 1 of foo/A
+h5read('example.h5', 'foo/A')
+
+# HDF5 can be used to optimize reading/writing from disk in R
+# Tutorial at bioconductor.org
 
 
 

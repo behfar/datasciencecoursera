@@ -38,3 +38,37 @@
 # From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 # Good luck!
 
+# There are 7352 rows in train/subject_train.txt. Each row has one int from 1:30.
+# There are 7352 rows in train/X_train.txt. Each row has 256 = 2 x 128 floats.
+# There are 7352 rows in train/Y_train.txt. Each row has one int from 1:5 = [WALKING, LYING, etc.]
+# Each of the 9 files in 'Intertial Signals/' has 7352 rows of 128 floats each.
+
+# Read in the 561 feature names (second columns in the file)
+features <- read.table('features.txt', stringsAsFactors=FALSE, col.names=c('index', 'name'))
+feature_col_names <- features$name
+
+# We also need column names for the subjects and activities
+subject_col_name <- 'subject'
+activity_col_name <- 'activity'
+
+# Read in the training data, label the columns, and cbind them into a training dataframe
+train_subject_df <- read.table('train/subject_train.txt', col.names = c(subject_col_name))
+train_features_df <- read.table('train/X_train.txt', colClasses='numeric', col.names=feature_col_names, check.names=FALSE)
+train_activity_df <- read.table('train/y_train.txt', colClasses='integer', col.names=c(activity_col_name))
+train_df <- cbind(train_subject_df, train_features_df, train_activity_df)
+
+# Read in the test data in a similar manner
+test_subject_df <- read.table('test/subject_test.txt', col.names = c(subject_col_name))
+test_features_df <- read.table('test/X_test.txt', colClasses='numeric', col.names=feature_col_names, check.names=FALSE)
+test_activity_df <- read.table('test/y_test.txt', colClasses = 'integer', col.names = c(activity_col_name))
+test_df <- cbind(test_subject_df, test_features_df, test_activity_df)
+
+# rbind the training and test data into a combined dataframe
+df <- rbind(train_df, test_df)
+
+# get the subset of column names that have 'mean()' or 'std()' in them
+mean_std_cols <- feature_col_names[grep('mean\\(\\)|std\\(\\)', feature_col_names)]
+
+# select only those columns from the larger df (and retain the 'subject' and 'activity' columns on the ends)
+mean_std_df <- df[, c(subject_col_name, mean_std_cols, activity_col_name)]
+

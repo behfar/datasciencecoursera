@@ -16,19 +16,19 @@ The untidy data and all its variables are documented in the [UCI HAR Dataset] (.
 
 The tidy data in [tidy_data.txt] (./tidy_data.txt) was produced by the [run_analysis.R] (./run_analysis.R) script (described in detail below).
 
-The tidy data consists of 180 observations grouped by 30 subjects (i.e. persons) and 6 activity types per subject (i.e. 'WALKING', 'STANDIN', 'SITTING', etc).
+The tidy data consists of 180 observations grouped by 30 subjects (i.e. persons) and 6 activity types per subject (i.e. 'WALKING', 'STANDING', 'SITTING', etc).
 
-Each row is a single observation. The first two columns are 'Subject' and 'Activity'. The remaining 66 columns are numeric values representing a set of averages, computed from a corresponding set of 66 variables in the untidy data.  Appendix A lists the names of the 66 columns of the tidy data, along with the name of their corresponding variables from the untidy data.
+Each row is a single observation. The first two columns are 'Subject' and 'Activity'. The remaining 66 columns are numeric values representing a set of averages, computed from a corresponding set of 66 variables in the untidy data.  Appendix A lists the names of the 66 columns of the tidy data, along with the names of their corresponding variables in the untidy data.
 
 ## The R script that produced the tidy data
 
 [run_analysis.R] (./run_analysis.R) is the R script that produced the tidy data from the untidy data. The following is a summary of the steps performed by this script.  The file itself contains more detailed comments.
 
 1. Download and unzip the file containing the Samsung Galaxy S smartphone accelerometer untidy data
-2. Read the training and test data sets from the untidy data and mergd them into a combined data set
+2. Read the training and test data sets from the untidy data and merge them into a combined data set
 3. Extract the subjects, activities, and the measurements on the mean and standard deviation from the untidy data set
 4. Create a separate tidy data set with the average of each extracted variable, grouped by subject and activity
-5. Label the activities with descriptive names
+5. Label the activities in the tidy data set with descriptive names
 6. Rename the columns of the tidy data set with descriptive variable names
 7. Export the tidy data set to the file [tidy_data.txt] (./tidy_data.txt)
 
@@ -37,7 +37,7 @@ Each row is a single observation. The first two columns are 'Subject' and 'Activ
 
 Names of the 66 columns of the tidy data, along with the names of their corresponding variables from the untidy data.
 
-Tidy column name 														Corresponding untidy column name
+```Tidy column name 														Corresponding untidy column name
 
 Subject																	subject
 activity 																y
@@ -107,3 +107,4 @@ FrequencyDomain_BodyBodyGyroscopeMagnitude_Mean 						fBodyBodyGyroMag-mean()
 FrequencyDomain_BodyBodyGyroscopeMagnitude_StandardDeviation 			fBodyBodyGyroMag-std()
 FrequencyDomain_BodyBodyGyroscopeJerkMagnitude_Mean 					fBodyBodyGyroJerkMag-mean()
 FrequencyDomain_BodyBodyGyroscopeJerkMagnitude_StandardDeviation 		fBodyBodyGyroJerkMag-std()
+```

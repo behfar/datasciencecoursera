@@ -40,7 +40,7 @@ Names of the 66 columns of the tidy data, along with the names of their correspo
 Tidy column name | Corresponding untidy column name
 --- | ---
 Subject | subject
-activity | y
+Activity | y
 TimeDomain_BodyAccelerometer_Mean_X_Axis | tBodyAcc-mean()-X
 TimeDomain_BodyAccelerometer_Mean_Y_Axis | tBodyAcc-mean()-Y
 TimeDomain_BodyAccelerometer_Mean_Z_Axis | tBodyAcc-mean()-Z
@@ -76,7 +76,7 @@ TimeDomain_BodyAccelerometerMagnitude_StandardDeviation | tBodyAccMag-std()
 TimeDomain_GravityAccelerometerMagnitude_Mean | tGravityAccMag-mean()
 TimeDomain_GravityAccelerometerMagnitude_StandardDeviation | tGravityAccMag-std()
 TimeDomain_BodyAccelerometerJerkMagnitude_Mean | tBodyAccJerkMag-mean()
-TimeDomain_BodyAccelerometerJerkMagnitude_StandardDeviation				tBodyAccJerkMag-std()
+TimeDomain_BodyAccelerometerJerkMagnitude_StandardDeviation | tBodyAccJerkMag-std()
 TimeDomain_BodyGyroscopeMagnitude_Mean | tBodyGyroMag-mean()
 TimeDomain_BodyGyroscopeMagnitude_StandardDeviation | tBodyGyroMag-std()
 TimeDomain_BodyGyroscopeJerkMagnitude_Mean | tBodyGyroJerkMag-mean()

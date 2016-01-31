@@ -4,9 +4,10 @@ Tidy data for the Samsung Galaxy S smartphone accelerometer project
 This 'Assignment' directory contains the following files:
 
 * [README.md] (./README.md) - this file
-* [UCI HAR Dataset] (./UCI HAR Dataset) - the untidy data for this project
+* [UCI HAR Dataset] (./UCI HAR Dataset) - the source data for this project
 * [tidy_data.txt] (./tidy_data.txt) - the tidy data for this project
-* [run_analysis.R] (./run_analysis.R) - the R script that produced the tidy data from the untidy data
+* [run_analysis.R] (./run_analysis.R) - the R script that produced the tidy data from the source data
+* [Codebook.md] (./Codebook.md) - The Codebook describing the source and tidy data sets and the analysis
 
 ## How to run this project
 

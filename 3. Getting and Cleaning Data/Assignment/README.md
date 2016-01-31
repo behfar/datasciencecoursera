@@ -13,12 +13,12 @@ This 'Assignment' directory contains the following files:
 Download this [Assignment] (./) directory and its contents. Open up R (e.g. inside RStudio), set your working directory to the `Assignment` directoy, and run the `run_analysis.R` script:
 ```
 setwd('Assignment')
-source('run_analysis.R')`
+source('run_analysis.R')
 ```
 View the tidy data set, either in a text editor, or using `View()` within RStudio like this:
 ```
 tidy_df <- read.table('tidy_data.txt', header=TRUE)
-View(tidy_df)`
+View(tidy_df)
 ```
 
 ## The untidy data (source data)

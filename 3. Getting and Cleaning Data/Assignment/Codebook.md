@@ -3,11 +3,11 @@ Codebook
 
 ## The source data
 
-The [UCI HAR Dataset] (./UCI HAR Dataset) was produced by Reyes-Ortiz et al. at [Smartlab] (http://www.smartlab.ws) in Genoa, Italy, and is available at this [URL] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'). It contains measurements from experiments involving 30 subjects within an age bracket of 19-48 years, performing 6 different activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while wearing a smartphone (Samsung Galaxy S II). The data represent measurements recorded using the embedded accelerometer and gyroscope of the smartphone.
+The [UCI HAR Dataset] (./UCI HAR Dataset) was produced by Reyes-Ortiz et al. at [Smartlab] (http://www.smartlab.ws) in Genoa, Italy, made available at this [URL] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'). It contains measurements from experiments involving 30 subjects within an age bracket of 19-48 years, performing 6 different activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while wearing a smartphone (Samsung Galaxy S II). The data represent measurements recorded using the embedded accelerometer and gyroscope of the smartphone.
 
-The accelerometer captured 3-axial linear acceleration and the gyroscope captured 3-axial angular velocity, at a constant rate of 50Hz. The signals were pre-processed, noise filtered, and sampled in fixed-width sliding windows of 2.56 sec and 50% overlap, resulting in 128 readings/window. For each time window a vector of features was obtained in the time domain, and FFT was applied to obtain related frequency domain features. The accelerometer data is separated into gravitational and body motion components. The data also include computed features indicating mean and standard deviations of the measurements.
+The accelerometer captured 3-axial linear acceleration and the gyroscope captured 3-axial angular velocity, at a constant rate of 50Hz. The signals were pre-processed, noise filtered, and sampled in fixed-width sliding windows of 2.56 sec and 50% overlap, resulting in 128 readings/window. For each time window a vector of features was obtained in the time domain, and FFT was applied to obtain related frequency domain features. The accelerometer data was separated into gravitational and body motion components. The data also include computed features indicating mean and standard deviations of the measurements.
 
-The data are randomly partitioned into a training set and a test set, for use in training machine learning models, with about 70% of the data selected for the training set and 30% the test set.
+The data were randomly partitioned into a training set and a test set, for use in training machine learning models, with about 70% of the data selected for the training set and 30% the test set.
 
 Each observation included
 
@@ -27,7 +27,7 @@ The activity identifiers and their associated labels are
 6 LAYING
 ```
 
-The training data (subject, activity, features) are stored in `train/subject_train.txt`, `train/y_train.txt`, and `train/X_train.txt` respectively, and the test data is similarly stored in `test/subject_test.txt`, `test/y_test.txt`, and `test/X_test.txt`.
+The data are stored in the [UCI HAR Dataset] (./UCI HAR Dataset) directory. The training data (subject, activity, features) are stored in `train/subject_train.txt`, `train/y_train.txt`, and `train/X_train.txt` respectively, and the test data are similarly stored in `test/subject_test.txt`, `test/y_test.txt`, and `test/X_test.txt`.
 
 
 ## The tidy data (processed)
@@ -40,7 +40,7 @@ Each row is a single summary observation. The first two columns are `Subject` an
 
 ## The R script that produced the tidy data
 
-[run_analysis.R] (./run_analysis.R) is the R script that produced the tidy data from the untidy data. The following is a summary of the steps performed by this script.  The file itself contains more detailed comments.
+[run_analysis.R] (./run_analysis.R) is the R script that produced the tidy data from the source data. The following is are the steps performed by this script.  The [run_analysis.R] (./run_analysis.R) script itself contains additional and more detailed comments.
 
 1. Download and unzip the file containing the Samsung Galaxy S smartphone accelerometer untidy data
 2. Read the training and test data sets from the untidy data and merge them into a combined data set
@@ -69,7 +69,7 @@ The names of the tidy columns are based on the following components:
 
 The following is a table of the tidy columns, along with their corresponding variables in the source data as reference:
 
-Tidy column name | Corresponding untidy column name
+Tidy column name | Corresponding variable in the source data
 --- | ---
 Subject | subject
 Activity | y

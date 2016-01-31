@@ -43,16 +43,23 @@
 # for each activity and each subject.
 # Good luck!
 
-# There are 7352 rows in train/subject_train.txt. Each row has one int from 1:30.
-# There are 7352 rows in train/X_train.txt. Each row has 256 = 2 x 128 floats.
-# There are 7352 rows in train/Y_train.txt. Each row has one int from 1:5 = [WALKING, LYING, etc.]
-# Each of the 9 files in 'Intertial Signals/' has 7352 rows of 128 floats each.
+
+# Organization of the source data:
+
+# The 'UCI HAR Dataset' directory contains the source data
+# The 'train/' and 'test/' directories contain the training and test data sets
+# There are 7352 rows in 'train/subject_train.txt'. Each row has one int from 1:30 representing a subject
+# There are 7352 rows in 'train/Y_train.txt'. Each row has one int from 1:5 = representing an activity [WALKING, LYING, etc.]
+# There are 7352 rows in 'train/X_train.txt'. Each row has 561 floats representing the features
+# The 'test/'' data set is organized similarly
+
+# Reading in the source data
 
 # URL of the zip file containing the data
 zip_file_url <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
 zip_file_name <- 'UCI HAR Dataset.zip'
 
-# The directory that the zip file shouldbe unzipped to
+# The directory that the zip file should be unzipped to
 dir <- './UCI HAR Dataset'
 
 # If the directory does not already exist, download the zip file and extract it to the directory
@@ -67,7 +74,7 @@ if (!file.exists(dir)) {
 	unzip(zip_file_name)
 }
 
-# Set up the various file names that we will be reading
+# Set up the various file names that we will be reading from
 dir_sep <- '/'
 feature_names_file <- paste(dir, 'features.txt', sep=dir_sep) # 561 feature names
 activity_names_file <- paste(dir, 'activity_labels.txt', sep=dir_sep) # 6 activity names
@@ -115,15 +122,17 @@ mean_std_cols <- feature_col_names[grep('mean\\(\\)|std\\(\\)', feature_col_name
 # select only the mean and std columns from the conbined dataframe, retaining the 'subject' and 'activity' columns on the ends
 mean_std_df <- combined_df[, c(subject_col_name, activity_col_name, mean_std_cols)]
 
+# Create the tidy data set
+
 # create tidy data set containing the average of each feature for each activity and each subject
 library(dplyr)
 tidy_averages_df <- mean_std_df %>% group_by(Subject, Activity) %>% summarize_each(funs(mean))
 
-# tidy the columns names by expanding abbreviations, deleting parens, and replacing dashes with underscores
+# tidy the column names by deleting parens, replacing dashes with underscores, expanding abbreviations
 tidy_col_names <- colnames(tidy_averages_df)
-tidy_col_names <- gsub('-', '_', tidy_col_names)
-tidy_col_names <- gsub('\\(\\)', '', tidy_col_names)
-tidy_col_names <- sub('^t', 'TimeDomain_', tidy_col_names)
+tidy_col_names <- gsub('-', '_', tidy_col_names) # replace dashes with underscores
+tidy_col_names <- gsub('\\(\\)', '', tidy_col_names) # delete parens
+tidy_col_names <- sub('^t', 'TimeDomain_', tidy_col_names) # expand abbreviations
 tidy_col_names <- sub('^f', 'FrequencyDomain_', tidy_col_names)
 tidy_col_names <- sub('_mean', '_Mean', tidy_col_names)
 tidy_col_names <- sub('_std', '_StandardDeviation', tidy_col_names)
@@ -137,4 +146,3 @@ colnames(tidy_averages_df) <- tidy_col_names
 
 # write the tidy data to a txt file 
 write.table(tidy_averages_df, file=tidy_data_file, row.name=FALSE, append=FALSE)
-

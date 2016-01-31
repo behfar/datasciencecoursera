@@ -20,10 +20,11 @@ View the tidy data set, either in a text editor, or using `View()` within RStudi
 tidy_df <- read.table('tidy_data.txt', header=TRUE)
 View(tidy_df)
 ```
+## Codebook
 
 ## The untidy data (source data)
 
-The untidy data and all its variables are documented in the [UCI HAR Dataset] (./UCI HAR Dataset) directory.
+The untidy data and all its variables are documented in the [UCI HAR Dataset] (./UCI HAR Dataset) directory. In order to avoid duplication and confusion, we have included any descriptions that can be found in the [UCI HAR Dataset] (./UCI HAR Dataset) directory and its corresponding [README.txt] (./UCI HAR Dataset/README.txt). 
 
 ## The tidy data (processed data)
 

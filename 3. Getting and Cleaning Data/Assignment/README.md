@@ -20,11 +20,34 @@ View the tidy data set, either in a text editor, or using `View()` within RStudi
 tidy_df <- read.table('tidy_data.txt', header=TRUE)
 View(tidy_df)
 ```
-## Codebook
+### Codebook
 
-## The untidy data (source data)
+## The source data (untidy)
 
-The untidy data and all its variables are documented in the [UCI HAR Dataset] (./UCI HAR Dataset) directory. In order to avoid duplication and confusion, we have included any descriptions that can be found in the [UCI HAR Dataset] (./UCI HAR Dataset) directory and its corresponding [README.txt] (./UCI HAR Dataset/README.txt). 
+The [UCI HAR Dataset] (./UCI HAR Dataset) contains measurements from experiments involving 30 subjects performing 6 different activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while wearing a smartphone (Samsung Galaxy S II). The data represent measurements recorded using the embedded accelerometer and gyroscope of the smartphone. The data are randomly partitioned into a training set and a test set, for use in training machine learning models, with about 70% of the data selected for the training set and 30% the test set.
+
+The accelerator and gyroscope data were obtained over a number of time windows, and for each time window a vector of features is provided in both time and frequency domains. The accelerometer data is separated into gravitational and body motion components. The data also includes computed features indicating mean and standard deviations of the measurements.
+
+Each observation includes
+
+* An identifier of the subject who carried out the experiment
+* An activity label 
+* Triaxial acceleration from the accelerometer and estimated body and gravity components
+* Triaxial angular velocity from the gyroscope
+* A 561-feature vector with time and frequency domain variables. 
+
+The activity labels are
+```
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+```
+
+The training data (subject, activity, features) are stored in `train/subject_train.txt`, `train/y_train.txt`, and `train/X_train.txt` respectively, and the test data is similarly stored in `test/subject_test.txt`, `test/y_test.txt`, and `test/X_test.txt`.
+
 
 ## The tidy data (processed data)
 
@@ -32,7 +55,7 @@ The tidy data in [tidy_data.txt] (./tidy_data.txt) was produced by the [run_anal
 
 The tidy data consists of 180 observations grouped by 30 subjects (i.e. persons) and 6 activity types per subject (i.e. `'WALKING', 'STANDING', 'SITTING'`, etc).
 
-Each row is a single observation. The first two columns are `Subject` and `Activity`. The remaining 66 columns are numeric values representing a set of averages, computed from a corresponding set of 66 variables in the untidy data.  Appendix A lists the names of the 66 columns of the tidy data, along with the names of their corresponding variables in the untidy data.
+Each row is a single observation. The first two columns are `Subject` and `Activity`. The remaining 66 columns are numeric values representing a set of averages, computed from a corresponding set of 66 variables in the untidy data.  Appendix A lists the 66 columns of the tidy data, along with the names of their corresponding variables in the source data.
 
 ## The R script that produced the tidy data
 
@@ -49,7 +72,18 @@ Each row is a single observation. The first two columns are `Subject` and `Activ
 
 ## Appendix A:
 
-Names of the 66 columns of the tidy data, along with the names of their corresponding variables from the untidy data.
+A list of the 66 columns of the tidy data, along with the names of their corresponding variables from the untidy data.
+
+The names of the tidy columns are based on the following components: 
+
+* The `Subject` and `Activity` columns indicate the subject (i.e. person) who collected the data and the activity in which that person was engaged at the time.
+* `TimeDomain` and `FrequencyDomain` indicate the data domain
+* `Body` and `Gravity` indicate whether the measurement is attributed to body movement or gravity
+* `Accelerometer` and `Gyroscope` indicate the measurement sensor
+* `{XYZ}_Axis' indicates the measurement axis
+* `Jerk` indicates whether the measurement is due to a jerk movement
+* `Magnitude` indicates a computed magnitude without reference to a particular axis
+* `Mean` and `StandardDeviation` indicate which statistical measure is presented
 
 Tidy column name | Corresponding untidy column name
 --- | ---

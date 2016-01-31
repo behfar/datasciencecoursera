@@ -38,6 +38,7 @@ Each row is a single observation. The first two columns are 'Subject' and 'Activ
 Names of the 66 columns of the tidy data, along with the names of their corresponding variables from the untidy data.
 
 Tidy column name | Corresponding untidy column name
+--- | ---
 Subject | subject
 activity | y
 TimeDomain_BodyAccelerometer_Mean_X_Axis | tBodyAcc-mean()-X

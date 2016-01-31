@@ -3,19 +3,21 @@ Codebook
 
 ## The source data
 
-The [UCI HAR Dataset] (./UCI HAR Dataset) was produced by Reyes-Ortiz et al. at [Smartlab] (http://www.smartlab.ws) in Genoa, Italy, and is available at this [URL] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'). It contains measurements from experiments involving 30 subjects performing 6 different activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while wearing a smartphone (Samsung Galaxy S II). The data represent measurements recorded using the embedded accelerometer and gyroscope of the smartphone. The data are randomly partitioned into a training set and a test set, for use in training machine learning models, with about 70% of the data selected for the training set and 30% the test set.
+The [UCI HAR Dataset] (./UCI HAR Dataset) was produced by Reyes-Ortiz et al. at [Smartlab] (http://www.smartlab.ws) in Genoa, Italy, and is available at this [URL] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'). It contains measurements from experiments involving 30 subjects within an age bracket of 19-48 years, performing 6 different activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while wearing a smartphone (Samsung Galaxy S II). The data represent measurements recorded using the embedded accelerometer and gyroscope of the smartphone.
 
-The accelerator and gyroscope data were obtained over a number of time windows, and for each time window a vector of features is provided in both time and frequency domains. The accelerometer data is separated into gravitational and body motion components. The data also includes computed features indicating mean and standard deviations of the measurements.
+The accelerometer captured 3-axial linear acceleration and the gyroscope captured 3-axial angular velocity, at a constant rate of 50Hz. The signals were pre-processed, noise filtered, and sampled in fixed-width sliding windows of 2.56 sec and 50% overlap, resulting in 128 readings/window. For each time window a vector of features was obtained in the time domain, and FFT was applied to obtain related frequency domain features. The accelerometer data is separated into gravitational and body motion components. The data also include computed features indicating mean and standard deviations of the measurements.
 
-Each observation includes
+The data are randomly partitioned into a training set and a test set, for use in training machine learning models, with about 70% of the data selected for the training set and 30% the test set.
+
+Each observation included
 
 * An identifier of the subject who carried out the experiment
-* An activity label 
+* An activity identifier
 * Triaxial acceleration from the accelerometer and estimated body and gravity components
 * Triaxial angular velocity from the gyroscope
 * A 561-feature vector with time and frequency domain variables. 
 
-The activity labels are
+The activity identifiers and their associated labels are
 ```
 1 WALKING
 2 WALKING_UPSTAIRS
@@ -55,15 +57,17 @@ Here is a summary of the 66 columns of the tidy data, along with the names of th
 The names of the tidy columns are based on the following components: 
 
 * The `Subject` and `Activity` columns indicate the subject (i.e. person) who collected the data and the activity in which that person was engaged at the time.
-* `TimeDomain` and `FrequencyDomain` indicate the data domain
+* `TimeDomain` and `FrequencyDomain` indicate the data domain. As described in the 'Source data' section above, the `FrequencyDomain` data were obtained by applying FFT to the `TimeDomain` data.
 * `Body` and `Gravity` indicate whether the measurement is attributed to body movement or gravity
 * `Accelerometer` and `Gyroscope` indicate the measurement sensor
 * `{XYZ}_Axis` indicates the measurement axis
 * `Jerk` indicates whether the measurement is due to a jerk movement
 * `Magnitude` indicates a computed magnitude without reference to a particular axis
 * `Mean` and `StandardDeviation` indicate which statistical measure is presented
+* The accelerator data is in the standard gravity unit 'g'
+* The gyroscope angular velocity data is in radians/second
 
-The following is a table of the tidy columns and their corresponding variables in the source data:
+The following is a table of the tidy columns, along with their corresponding variables in the source data as reference:
 
 Tidy column name | Corresponding untidy column name
 --- | ---

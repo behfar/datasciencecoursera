@@ -8,6 +8,19 @@ This 'Assignment' directory contains the following files:
 * [tidy_data.txt] (./tidy_data.txt) - the tidy data for this project
 * [run_analysis.R] (./run_analysis.R) - the R script that produced the tidy data from the untidy data
 
+## How to run this project
+
+Download this [Assignment] (./) directory and its contents. Open up R (e.g. inside RStudio), set your working directory to the `Assignment` directoy, and run the `run_analysis.R` script:
+```
+setwd('Assignment')
+source('run_analysis.R')`
+```
+View the tidy data set, either in a text editor, or using `View()` within RStudio like this:
+```
+tidy_df <- read.table('tidy_data.txt', header=TRUE)
+View(tidy_df)`
+```
+
 ## The untidy data (source data)
 
 The untidy data and all its variables are documented in the [UCI HAR Dataset] (./UCI HAR Dataset) directory.
@@ -16,9 +29,9 @@ The untidy data and all its variables are documented in the [UCI HAR Dataset] (.
 
 The tidy data in [tidy_data.txt] (./tidy_data.txt) was produced by the [run_analysis.R] (./run_analysis.R) script (described in detail below).
 
-The tidy data consists of 180 observations grouped by 30 subjects (i.e. persons) and 6 activity types per subject (i.e. 'WALKING', 'STANDING', 'SITTING', etc).
+The tidy data consists of 180 observations grouped by 30 subjects (i.e. persons) and 6 activity types per subject (i.e. `'WALKING', 'STANDING', 'SITTING'`, etc).
 
-Each row is a single observation. The first two columns are 'Subject' and 'Activity'. The remaining 66 columns are numeric values representing a set of averages, computed from a corresponding set of 66 variables in the untidy data.  Appendix A lists the names of the 66 columns of the tidy data, along with the names of their corresponding variables in the untidy data.
+Each row is a single observation. The first two columns are `Subject` and `Activity`. The remaining 66 columns are numeric values representing a set of averages, computed from a corresponding set of 66 variables in the untidy data.  Appendix A lists the names of the 66 columns of the tidy data, along with the names of their corresponding variables in the untidy data.
 
 ## The R script that produced the tidy data
 

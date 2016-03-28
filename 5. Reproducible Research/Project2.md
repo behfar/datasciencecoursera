@@ -1,0 +1,143 @@
+# NOAA Storm Database Analysis
+
+# Synopsis
+
+This report explores the U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database. The database tracks characteristics of major storms and weather events in the United States, including when and where they occur, as well as estimates of any fatalities, injuries, and property damage.
+
+In partcular, this report processes the NOAA storm database to answer the following two questions:
+
+1. Across the United States, which types of events (as indicated in the `𝙴𝚅𝚃𝚈𝙿𝙴` variable) are most harmful with respect to population health?
+
+2. Across the United States, which types of events have the greatest economic consequences?
+
+
+The questions are answered by listing the top 10 events that have caused the highest human and non-humna damage over the period 1950-2011 as represented by the NOAA data.
+
+The data for this report comes in the form of a comma-separated-value file compressed via the bzip2 algorithm to reduce its size, made available by the NOAA and downloaded from the Coursera website.
+
+# Data Processing
+
+Download the NOAA zipped csv file and read it into a data frame:
+
+
+```r
+# read data into a data frame
+URL<-'https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2'
+filename <- 'repdata-data-StormData.csv.bz2'
+if (!file.exists(filename)) {
+  download.file(URL, destfile = filename, method='curl')
+}
+df <- read.csv(filename)
+```
+
+**A note on the data:**  The NOAA csv file appears to have some inconsistency in event naming, such as `TSTM WIND`, `THUNDERSTORM WIND`, and `THUNDERSTORM WINDS`, which presumably all mean the same event category.  We have not scrubbed the event names and the analysis below uses the data as-is.
+
+
+### Calculating the property and crop damage amounts
+
+The NOAA csv file splits the property damage amounts between a mantissa in column `PROPDMG` and an exponent in column `PROPDMGEXP`.  We combine the two into a new numeric column `property_damage`:
+
+
+```r
+# combine property damage mantissa (PROPDMG) and exponent (PROPDMGEXP) into a combined numeric column
+propdmgexp <- unique(df$PROPDMGEXP) # output: [1] K M   B m + 0 5 6 ? 4 2 3 h 7 H - 1 8
+propdmgexp.numeric <- c(1e3, 1e6, 1, 1e9, 1e6, 1, 1, 1e5, 1e6, 1, 1e4, 1e2, 1e3, 1e2, 1e7, 1e2, -1, 1, 1e8)
+df$property_damage <-
+  df$PROPDMG * as.numeric(plyr::mapvalues(df$PROPDMGEXP, propdmgexp, propdmgexp.numeric, warn_missing=FALSE))
+```
+
+We do the same for the crop damage amounts:
+
+
+```r
+# combine crop damage mantissa (CROPDMG) and exponent (CROPDMGEXP) into a combined numeric column
+cropdmgexp <- unique(df$CROPDMGEXP) # output: [1]   M K m B ? 0 k 2
+cropdmgexp.numeric <- c(1, 1e6, 1e3, 1e6, 1e9, 1, 1, 1e3, 1e2)
+df$crop_damage <-
+  df$CROPDMG * as.numeric(plyr::mapvalues(df$CROPDMGEXP, cropdmgexp, cropdmgexp.numeric, warn_missing=FALSE))
+```
+
+For the following analysis we only need to keep the columns for event type, fatalities, inuries, prperty damage, and crop damage:
+
+
+```r
+# keep only columns for event type, fatalities, injuries, property damage, and crop damage
+df_sub <- df[,c('EVTYPE', 'FATALITIES', 'INJURIES', 'property_damage', 'crop_damage')]
+```
+
+# Results
+
+First, let's see the top 10 most frequently occurring events, regardless of how much damage they have caused:
+
+
+```r
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+# Top 10 most frequently occuring events
+df_summary <- df_sub %>%
+  group_by(EVTYPE) %>%
+  summarize(total_occurrences=n()) %>%
+  arrange(desc(total_occurrences)) %>%
+  head(n=10)
+
+ggplot(df_summary, aes(x=reorder(EVTYPE, total_occurrences), y=total_occurrences)) +
+  geom_bar(stat='identity') +
+  ggtitle('Top 10 most frequently occuring events for the period 1950-2011') +
+  xlab('Event type') +
+  ylab('Total number of occurrences') +
+  coord_flip()
+```
+
+![](Project2_files/figure-html/unnamed-chunk-5-1.png)
+
+Next we will look at what events cause the most human damage (fatalities and injuries) and non-human damage (property and crops).
+
+##### Question 1: Across the United States, which types of events (as indicated in the 𝙴𝚅𝚃𝚈𝙿𝙴 variable) are most harmful with respect to population health?
+
+We'll answer this by listing the top 10 events with the highest number of total fatalities and injuries:
+
+
+```r
+# Top 10 events with highest total fatalities + injuries
+df_summary <- df_sub %>%
+  group_by(EVTYPE) %>%
+  summarize(total_fatalities=sum(FATALITIES), total_injuries=sum(INJURIES)) %>%
+  arrange(desc(total_fatalities + total_injuries)) %>%
+  head(n=10) %>%
+  gather(key=damage_type, value=damage_amount, total_fatalities, total_injuries)
+
+ggplot(df_summary, aes(x=reorder(EVTYPE, damage_amount), y=damage_amount, fill=damage_type)) +
+  geom_bar(stat='identity', position='stack') +
+  ggtitle('Top 10 events with highst total fatalities and injuries for the period 1950-2011') +
+  xlab('Event type') +
+  ylab('Total fatalities and injuries') +
+  coord_flip()
+```
+
+![](Project2_files/figure-html/unnamed-chunk-6-1.png)
+
+##### Question 2: Across the United States, which types of events have the greatest economic consequences?
+
+We'll asnwer this by listing the top 10 events with the hightst total damage to property and crops:
+
+
+```r
+# Top 10 events with highest total damage to property and crops
+df_summary <- df_sub %>%
+  group_by(EVTYPE) %>%
+  summarize(total_property_damage=sum(property_damage), total_crop_damage=sum(crop_damage)) %>%
+  arrange(desc(total_property_damage + total_crop_damage)) %>%
+  head(n=10) %>%
+  gather(key=damage_type, value=damage_amount, total_property_damage, total_crop_damage)
+
+ggplot(df_summary, aes(x=reorder(EVTYPE, damage_amount), y=damage_amount/1e6, fill=damage_type)) +
+  geom_bar(stat='identity', position='stack') +
+  ggtitle('Top 10 events with highest total property and crop damage for the period 1950-2011') +
+  xlab('Event type') +
+  ylab('Total property and crop damage (millions of $)') +
+  coord_flip()
+```
+
+![](Project2_files/figure-html/unnamed-chunk-7-1.png)
